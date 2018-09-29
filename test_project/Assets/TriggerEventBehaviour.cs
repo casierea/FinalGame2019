@@ -14,7 +14,7 @@ public class TriggerEventBehaviour : MonoBehaviour
 		Enable.Invoke();
 	}
 
-	void OnTriggerEneter()
+	void OnTriggerEnter()
 	{
 		Trigger.Invoke();
 	}
