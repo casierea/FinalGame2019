@@ -14,6 +14,7 @@
         <e p="MouseEventBehaviour.cs" t="Include" />
         <e p="Move.cs" t="Include" />
         <e p="PowerUp.cs" t="Include" />
+        <e p="TransformObject.cs" t="Include" />
         <e p="TriggerEventBehaviour.cs" t="Include" />
         <e p="Variables.cs" t="Include" />
       </e>
