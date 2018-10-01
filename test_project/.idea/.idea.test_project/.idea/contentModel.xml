@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="DivideByValue.cs" t="Include" />
+        <e p="Movements.cs" t="Include" />
         <e p="MulitiplyAndDivide.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AddMoney.cs" t="Include" />
