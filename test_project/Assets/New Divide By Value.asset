@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d21e3e655c6a646b66fb60172744d0, type: 3}
   m_Name: New Divide By Value
   m_EditorClassIdentifier: 
-  ObjValue: {fileID: 0}
+  ObjValue: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}

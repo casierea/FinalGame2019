@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90343dda29893eb489aae28db604113d, type: 3}
   m_Name: New Subtract Value
   m_EditorClassIdentifier: 
-  ValueObj: {fileID: 0}
+  ValueObj: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
