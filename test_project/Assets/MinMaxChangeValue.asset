@@ -8,26 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46c599e6fdac2143a927548aab26706, type: 3}
-  m_Name: ChangeValue
-  m_EditorClassIdentifier: 
-  ValueObj: {fileID: 11400000, guid: 6a80754221ce8274c83ecaa8b16fc721, type: 2}
-  MaxValue: {fileID: 0}
-  MinValue: {fileID: 0}
+  m_Script: {fileID: 0}
+  m_Name: MinMaxChangeValue
+  m_EditorClassIdentifier: Assembly-CSharp::MinMaxChangeValue
+  ChangeValue: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
+  MaxValue: {fileID: 11400000, guid: a7e011ecfbc3b944f82cc099ebde2cd4, type: 2}
+  MinValue: {fileID: 11400000, guid: c85e816dc3c22254c9739aa3a67b08b4, type: 2}
   EventMax:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   EventMin:

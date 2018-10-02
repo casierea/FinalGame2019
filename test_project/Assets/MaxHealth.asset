@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91d78d0428d72384d98ff130b2dea4ee, type: 3}
-  m_Name: ChangePowerValue
+  m_Script: {fileID: 11500000, guid: 8ad9d33c74ad39f4993a0ce7e6129bb9, type: 3}
+  m_Name: MaxHealth
   m_EditorClassIdentifier: 
-  Data: {fileID: 0}
+  Value: 100
