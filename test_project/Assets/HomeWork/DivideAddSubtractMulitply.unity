@@ -398,7 +398,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 17a6da2cbfe3fd44caa56a36bb15ad15, type: 2}
-        m_MethodName: AddValueToObject
+        m_MethodName: SubtractValueFromObject
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef,
