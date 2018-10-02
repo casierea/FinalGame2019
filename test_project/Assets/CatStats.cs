@@ -11,7 +11,7 @@ using UnityEngine;
         public int Age = 92;
 
         public float Health = 5.5f;
-        public float CatPower = 9.9f;
+        [Range(0,10)] public float CatPower = 9.9f;
 
         //public Boolean alive = true;
         public Vector3 Movement = new Vector3(1.5f, 2.1f, 3.0f);

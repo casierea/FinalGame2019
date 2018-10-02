@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5264f3ae-2496-4583-ba34-37e73194ca08" name="Default" comment="" />
+    <list default="true" id="5264f3ae-2496-4583-ba34-37e73194ca08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.test_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CatStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CatStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Divide By Value.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Divide By Value.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Mulitiply And Divide.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Mulitiply And Divide.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Subtract Value.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Subtract Value.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Move.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PowerUp.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PowerUp.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -76,15 +87,35 @@
       <file leaf-file-name="CatStats.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CatStats.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            <state relative-caret-position="48">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
-                <marker date="1538453822943" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538453822943" expanded="true" signature="122:996" ph="{...}" />
-                <marker date="1538453822943" expanded="true" signature="538:603" ph="{...}" />
-                <marker date="1538453822943" expanded="true" signature="626:990" ph="{...}" />
-                <marker date="1538453822943" expanded="true" signature="676:743" ph="{...}" />
-                <marker date="1538453822943" expanded="true" signature="760:884" ph="{...}" />
+                <marker date="1538498411490" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538498411490" expanded="true" signature="122:1010" ph="{...}" />
+                <marker date="1538498411490" expanded="true" signature="552:617" ph="{...}" />
+                <marker date="1538498411490" expanded="true" signature="640:1004" ph="{...}" />
+                <marker date="1538498411490" expanded="true" signature="690:757" ph="{...}" />
+                <marker date="1538498411490" expanded="true" signature="774:898" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZoyaDestroya.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZoyaDestroya.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="811">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <marker date="1538450962194" expanded="true" signature="6:104" ph="..." />
+                <marker date="1538450962194" expanded="true" signature="149:822" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="205:234" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="265:343" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="369:461" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="491:588" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="591:687" ph="/* When the user presses Ctrl, it will remove the ... */" />
+                <marker date="1538450962194" expanded="true" signature="702:820" ph="{...}" />
+                <marker date="1538450962194" expanded="true" signature="768:817" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,10 +124,29 @@
       <file leaf-file-name="MinMaxChange.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="673">
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
               <folding>
-                <marker date="1538451516654" expanded="true" signature="0:1146" ph="/* using System; ... */" />
+                <marker date="1538496464989" expanded="true" signature="0:776" ph="/* using System; ... */" />
+                <marker date="1538496464989" expanded="true" signature="847:1208" ph="/* public void SubtractValueFromObject(FloatData data) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <marker date="1538499167409" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538499167409" expanded="true" signature="114:820" ph="{...}" />
+                <marker date="1538499167409" expanded="true" signature="206:267" ph="/* private Vector3 MoveSpeed; ... */" />
+                <marker date="1538499167409" expanded="true" signature="384:817" ph="{...}" />
+                <marker date="1538499167409" expanded="true" signature="390:559" ph="/* taking x speed and taking whatever our speed is, ... */" />
+                <marker date="1538499167409" expanded="true" signature="616:673" ph="/* hortizonal is left and right arrows ... */" />
+                <marker date="1538499167409" expanded="true" signature="714:782" ph="/* transform.Translate(MoveSpeed); ... */" />
               </folding>
             </state>
           </provider>
@@ -111,6 +161,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CatStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Variables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZoyaDestroya.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -147,6 +198,7 @@
         <option value="$PROJECT_DIR$/Assets/ZoyaDestroya.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs" />
         <option value="$PROJECT_DIR$/Assets/CatStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
       </list>
     </option>
   </component>
@@ -159,7 +211,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="40" />
     <option name="width" value="1400" />
@@ -232,12 +284,12 @@
       <workItem from="1538084209637" duration="2610000" />
       <workItem from="1538165020692" duration="1349000" />
       <workItem from="1538277865836" duration="656000" />
-      <workItem from="1538278543003" duration="21377000" />
+      <workItem from="1538278543003" duration="23809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38434000" />
+    <option name="totallyTimeSpent" value="40866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,7 +312,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26332623" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="right" id="Database" order="4" />
@@ -310,13 +362,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/MouseEventBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TriggerEventBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -535,21 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1538008533453" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538008533453" expanded="true" signature="114:754" ph="{...}" />
-            <marker date="1538008533453" expanded="true" signature="318:751" ph="{...}" />
-            <marker date="1538008533453" expanded="true" signature="324:493" ph="/* taking x speed and taking whatever our speed is, ... */" />
-            <marker date="1538008533453" expanded="true" signature="550:607" ph="/* hortizonal is left and right arrows ... */" />
-            <marker date="1538008533453" expanded="true" signature="648:716" ph="/* transform.Translate(MoveSpeed); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HomeworkDivideMultiplyAddSubtract.unity">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,60 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeValue.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-          <folding>
-            <marker date="1538446840538" expanded="true" signature="6:156" ph="..." />
-            <marker date="1538446840538" expanded="true" signature="220:1050" ph="{...}" />
-            <marker date="1538446840538" expanded="true" signature="465:673" ph="{...}" />
-            <marker date="1538446840538" expanded="true" signature="504:668" ph="/* more for fun ... */" />
-            <marker date="1538446840538" expanded="true" signature="728:803" ph="{...}" />
-            <marker date="1538446840538" expanded="true" signature="850:923" ph="{...}" />
-            <marker date="1538446840538" expanded="true" signature="967:1044" ph="{...}" />
-            <marker date="1538446840538" expanded="true" signature="1000:1041" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CatStats.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding>
-            <marker date="1538453822943" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538453822943" expanded="true" signature="122:996" ph="{...}" />
-            <marker date="1538453822943" expanded="true" signature="538:603" ph="{...}" />
-            <marker date="1538453822943" expanded="true" signature="626:990" ph="{...}" />
-            <marker date="1538453822943" expanded="true" signature="676:743" ph="{...}" />
-            <marker date="1538453822943" expanded="true" signature="760:884" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1538072616499" expanded="true" signature="6:104" ph="..." />
-            <marker date="1538072616499" expanded="true" signature="153:239" ph="{...}" />
-            <marker date="1538072616499" expanded="true" signature="210:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <marker date="1538451516654" expanded="true" signature="0:1146" ph="/* using System; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -710,6 +686,95 @@
           <folding>
             <marker date="1538436936158" expanded="true" signature="79:217" ph="{...}" />
             <marker date="1538436936158" expanded="true" signature="162:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1538072616499" expanded="true" signature="6:104" ph="..." />
+            <marker date="1538072616499" expanded="true" signature="153:239" ph="{...}" />
+            <marker date="1538072616499" expanded="true" signature="210:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MinMaxChange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding>
+            <marker date="1538496464989" expanded="true" signature="0:776" ph="/* using System; ... */" />
+            <marker date="1538496464989" expanded="true" signature="847:1208" ph="/* public void SubtractValueFromObject(FloatData data) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CatStats.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <marker date="1538498411490" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538498411490" expanded="true" signature="122:1010" ph="{...}" />
+            <marker date="1538498411490" expanded="true" signature="552:617" ph="{...}" />
+            <marker date="1538498411490" expanded="true" signature="640:1004" ph="{...}" />
+            <marker date="1538498411490" expanded="true" signature="690:757" ph="{...}" />
+            <marker date="1538498411490" expanded="true" signature="774:898" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZoyaDestroya.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <marker date="1538450962194" expanded="true" signature="6:104" ph="..." />
+            <marker date="1538450962194" expanded="true" signature="149:822" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="205:234" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="265:343" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="369:461" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="491:588" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="591:687" ph="/* When the user presses Ctrl, it will remove the ... */" />
+            <marker date="1538450962194" expanded="true" signature="702:820" ph="{...}" />
+            <marker date="1538450962194" expanded="true" signature="768:817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChangeValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1538446840538" expanded="true" signature="6:156" ph="..." />
+            <marker date="1538446840538" expanded="true" signature="220:1050" ph="{...}" />
+            <marker date="1538446840538" expanded="true" signature="465:673" ph="{...}" />
+            <marker date="1538446840538" expanded="true" signature="504:668" ph="/* more for fun ... */" />
+            <marker date="1538446840538" expanded="true" signature="728:803" ph="{...}" />
+            <marker date="1538446840538" expanded="true" signature="850:923" ph="{...}" />
+            <marker date="1538446840538" expanded="true" signature="967:1044" ph="{...}" />
+            <marker date="1538446840538" expanded="true" signature="1000:1041" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <marker date="1538499167409" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538499167409" expanded="true" signature="114:820" ph="{...}" />
+            <marker date="1538499167409" expanded="true" signature="206:267" ph="/* private Vector3 MoveSpeed; ... */" />
+            <marker date="1538499167409" expanded="true" signature="384:817" ph="{...}" />
+            <marker date="1538499167409" expanded="true" signature="390:559" ph="/* taking x speed and taking whatever our speed is, ... */" />
+            <marker date="1538499167409" expanded="true" signature="616:673" ph="/* hortizonal is left and right arrows ... */" />
+            <marker date="1538499167409" expanded="true" signature="714:782" ph="/* transform.Translate(MoveSpeed); ... */" />
           </folding>
         </state>
       </provider>
