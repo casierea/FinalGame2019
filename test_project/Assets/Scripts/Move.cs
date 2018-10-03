@@ -9,6 +9,11 @@ public class Move : MonoBehaviour
 	public CharacterController Character;
 	
 	public float Speed;
+
+	//private Vector3 MoveSpeed;
+
+	//private Vector3 RotateSpeed;
+	
 	public Vector3 MoveSpeed;
 	public Vector3 RotateSpeed;
 	

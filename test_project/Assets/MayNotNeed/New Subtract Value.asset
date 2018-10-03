@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ad9d33c74ad39f4993a0ce7e6129bb9, type: 3}
-  m_Name: PlayerHealth
+  m_Script: {fileID: 11500000, guid: 90343dda29893eb489aae28db604113d, type: 3}
+  m_Name: New Subtract Value
   m_EditorClassIdentifier: 
-  Value: 50
+  ValueObj: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
