@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.WSA.Sharing;
 
 public class CharacterMover : MonoBehaviour
 {
@@ -25,16 +26,19 @@ public class CharacterMover : MonoBehaviour
 	{
 		if (controller.isGrounded)
 		{
-			position.z = MoveSpeed*Input.GetAxis("Vertical");
-			rotation.y = Input.GetAxis("Horizontal");
+			position.Set(0, 0, MoveSpeed*Input.GetAxis("Vertical"));
+			rotation.Set(0, Input.GetAxis("Horizontal"), 0);
 			transform.Rotate(rotation);
 			position = transform.TransformDirection(position);
-			
-			//position.x = Rotate* Input.GetAxis("Horizontal");										//get axis is built into Unity
+								    //position.z = MoveSpeed*Input.GetAxis("Vertical");
+						             //rotation.y = Input.GetAxis("Horizontal");
+							         //transform.Rotate(rotation);
+							         //position = transform.TransformDirection(position);
+									//			
+												//position.x = Rotate* Input.GetAxis("Horizontal");										//get axis is built into Unity
 											       // Vertical is s w
 													
-                                          
-			
+                                
 			if (Input.GetButton("Jump"))
 			{
 				position.y = JumpSpeed;
