@@ -1,7 +1,12 @@
 fileFormatVersion: 2
 guid: c89da4f3bd024f1409868ca893132fe0
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Tadpole
+    21300002: young frog
+    21300004: grown frog
+    21300006: ball
+    21300008: eyeball
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,17 +45,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
-  spritePivot: {x: 0.20488632, y: 0.76931137}
+  spritePivot: {x: 0.6351564, y: 0.51885897}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 356, y: 401, z: 52, w: 56}
+  spriteBorder: {x: 253, y: 230, z: 89, w: 210}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0.19
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -82,9 +87,121 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
-    physicsShape: []
+    sprites:
+    - serializedVersion: 2
+      name: Tadpole
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 372
+        width: 149
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1546060b88232d40a26863a83b1002a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: young frog
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 221
+        width: 211
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcae12093b3d874682f4d86182a03c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grown frog
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 55
+        width: 236
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc2de430f9b9a84aa0d2404e45d70e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 78
+        width: 129
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 14}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91761ef0ee8c844c98e0bc8a3e01bf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeball
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 366
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a656b333b03ef4c85f5db07c04a656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -170.53238, y: 111.83853}
+      - {x: -172, y: 153}
+      - {x: -125.72983, y: 155.27417}
+      - {x: -126, y: 113}
+    - - {x: -158.6171, y: -177.65625}
+      - {x: -155.34293, y: -53.253403}
+      - {x: -42.21425, y: -54.890488}
+      - {x: -40.577118, y: -173.56354}
+    physicsShape:
+    - - {x: -256, y: 256}
+      - {x: -256, y: -256}
+      - {x: 256, y: -256}
+      - {x: 256, y: 256}
     bones: []
     spriteID: 504dee45cf1c47548bc315d4a0710d0c
     vertices: []
