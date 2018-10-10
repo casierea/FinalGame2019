@@ -13,15 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - Player
-<<<<<<< HEAD
-  - Bullet
-  - Object
-=======
-  - Object
-  - Bullet
->>>>>>> master
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
