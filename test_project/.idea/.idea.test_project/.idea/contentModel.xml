@@ -5,6 +5,7 @@
     <e p="C:\Users\10864830\Documents\repo\CasieUnityProjectsForSchool\unity_projects\test_project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="LocalVars.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AddMoney.cs" t="Include" />
           <e p="AddValue.cs" t="Include" />
@@ -34,6 +35,7 @@
           <e p="Variables.cs" t="Include" />
           <e p="ZoyaDestroya.cs" t="Include" />
         </e>
+        <e p="WhatCanSeeIt.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
