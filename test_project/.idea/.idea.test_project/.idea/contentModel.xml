@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10864830\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_test_project.-1181340042.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10864830\Documents\repo\CasieUnityProjectsForSchool\unity_projects\test_project" t="IncludeRecursive">
+    <e p="C:\Users\wunderduck\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_test_project.-867570932.00" t="ExcludeRecursive" />
+    <e p="C:\Users\wunderduck\unity_repos\unity_projects\test_project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="LocalVars.cs" t="Include" />
@@ -35,6 +35,7 @@
           <e p="Variables.cs" t="Include" />
           <e p="ZoyaDestroya.cs" t="Include" />
         </e>
+        <e p="Speak.cs" t="Include" />
         <e p="WhatCanSeeIt.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
