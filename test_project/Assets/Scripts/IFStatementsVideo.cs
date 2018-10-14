@@ -11,16 +11,28 @@ public class IFStatementsVideo : MonoBehaviour
 	public string Password;
 	public bool OnSwitch;
 	void Update () {
+		//
 		if (OnSwitch)
 		{
 			print("The Light is on");
 		}
 
-		if (Password == "Pikachu") ;
+		else
+		{
+			print("No light. Can not haz.");
+		}
+
+		//
+		if (Password == "Pikachu")
 		{
 			print("Correct!");
 		}
+		else
+		{
+			print("Not the password. Thanks anyway.");
+		}
 
+		//
 		if (A + B == C)
 		{
 			print("A plus B equals C");
