@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PracticeScripts.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PracticeScripts.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,18 +17,19 @@
       <file leaf-file-name="PlayerMove.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+            <state relative-caret-position="303">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
-                <marker date="1539567388944" expanded="true" signature="6:125" ph="..." />
-                <marker date="1539567388944" expanded="true" signature="167:772" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="324:344" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="364:721" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="415:447" ph="/* Animatioans ... */" />
-                <marker date="1539567388944" expanded="true" signature="489:508" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="554:571" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="733:748" ph="{...}" />
-                <marker date="1539567388944" expanded="true" signature="766:770" ph="{...}" />
+                <marker date="1539569596181" expanded="false" signature="6:125" ph="..." />
+                <marker date="1539569596181" expanded="true" signature="167:1032" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="324:344" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="364:771" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="448:464" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="465:497" ph="/* Animatioans ... */" />
+                <marker date="1539569596181" expanded="true" signature="539:558" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="604:621" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="783:867" ph="{...}" />
+                <marker date="1539569596181" expanded="true" signature="885:1030" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,7 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -119,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539566174579</updated>
-      <workItem from="1539566199531" duration="1180000" />
+      <workItem from="1539566199531" duration="3498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1180000" />
+    <option name="totallyTimeSpent" value="3498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -149,6 +151,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
@@ -173,18 +176,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/PlayerMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+        <state relative-caret-position="303">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
-            <marker date="1539567388944" expanded="true" signature="6:125" ph="..." />
-            <marker date="1539567388944" expanded="true" signature="167:772" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="324:344" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="364:721" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="415:447" ph="/* Animatioans ... */" />
-            <marker date="1539567388944" expanded="true" signature="489:508" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="554:571" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="733:748" ph="{...}" />
-            <marker date="1539567388944" expanded="true" signature="766:770" ph="{...}" />
+            <marker date="1539569596181" expanded="false" signature="6:125" ph="..." />
+            <marker date="1539569596181" expanded="true" signature="167:1032" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="324:344" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="364:771" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="448:464" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="465:497" ph="/* Animatioans ... */" />
+            <marker date="1539569596181" expanded="true" signature="539:558" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="604:621" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="783:867" ph="{...}" />
+            <marker date="1539569596181" expanded="true" signature="885:1030" ph="{...}" />
           </folding>
         </state>
       </provider>

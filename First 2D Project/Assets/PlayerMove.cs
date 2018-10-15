@@ -19,6 +19,10 @@ public class PlayerMove : MonoBehaviour {
 void PlayerMover(){
 //Controls
 	MoveX = Input.GetAxis("Horizontal");
+	if (Input.GetButtonDown("Jump"))
+	{
+		Jump();
+	}
 //Animatioans
 //Player Direction
 if (MoveX < 0.0f && FacingRight == false)
@@ -33,8 +37,13 @@ FlipPlayer();
 }
 void Jump(){
 //Jump code
+	GetComponent<Rigidbody2D>().AddForce(Vector2.up * PlayerJumpPower);
 }
-void FlipPlayer(){
-
+void FlipPlayer()
+{
+	FacingRight = !FacingRight;
+	Vector2 localScale = gameObject.transform.localScale;
+	localScale.x *= -1;
+	transform.localScale = localScale;
 }
 }
