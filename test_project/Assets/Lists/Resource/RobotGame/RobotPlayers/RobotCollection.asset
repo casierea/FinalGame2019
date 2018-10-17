@@ -9,6 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e6ac5df0cd9bff4e87a0ad49cc08b77, type: 3}
-  m_Name: Robots
+  m_Name: RobotCollection
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 9c5891b085cc7e54ba030be0becb11d7, type: 2}
+  - {fileID: 11400000, guid: 1d68ad985a7d4a94983fb6fe8b1ed630, type: 2}
+  - {fileID: 11400000, guid: 891c1fc900bad704bbb79cea9b979ec7, type: 2}

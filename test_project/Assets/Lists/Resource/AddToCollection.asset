@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75659b4db4fe7b44896a80deb9f310b2, type: 3}
   m_Name: AddToCollection
   m_EditorClassIdentifier: 
-  Collection: {fileID: 11400000, guid: 87f7b05175446c647aa0ed85a96d1413, type: 2}
+  Collection: {fileID: 11400000, guid: b8199f6bccc44dd4f95efbe84ac95acf, type: 2}
