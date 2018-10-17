@@ -12,7 +12,7 @@ public class TriggerEventBehaviour : MonoBehaviour
         Enable.Invoke();
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter2D()
     {
         Trigger.Invoke();
     }

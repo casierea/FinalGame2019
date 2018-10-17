@@ -39,8 +39,7 @@ public class PlayerMoveNew : MonoBehaviour
 		
 		}
 		//physics
-		gameObject.GetComponent<Rigidbody2D>().velocity =
-			new Vector2(MoveX * PlayerSpeed.Value, gameObject.GetComponent<Rigidbody2D>().velocity.y);
+		gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(MoveX * PlayerSpeed.Value, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 }
 
 	void PlayerRayCast()

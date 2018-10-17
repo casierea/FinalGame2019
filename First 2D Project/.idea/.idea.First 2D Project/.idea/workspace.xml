@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JustMoveCR.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JustMoveCR.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_project/Assets/Scenes/CoinWorks.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project/Assets/Scenes/CoinWorks.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrogJump.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrogJump.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveNew.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMoveNew.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,21 +20,21 @@
       <file leaf-file-name="PlayerMoveNew.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerMoveNew.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="94">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <marker date="1539746545489" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539746545489" expanded="true" signature="122:1375" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="341:382" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="402:856" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="501:520" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="555:612" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="637:696" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="879:1187" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="1112:1146" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="1153:1184" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="1201:1373" ph="{...}" />
-                <marker date="1539746545489" expanded="true" signature="1207:1272" ph="/* Jumpcode ... */" />
+                <marker date="1539749833095" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539749833095" expanded="true" signature="122:1372" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="341:382" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="402:853" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="501:520" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="555:612" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="637:696" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="876:1184" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="1109:1143" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="1150:1181" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="1198:1370" ph="{...}" />
+                <marker date="1539749833095" expanded="true" signature="1204:1269" ph="/* Jumpcode ... */" />
               </folding>
             </state>
           </provider>
@@ -47,8 +43,8 @@
       <file leaf-file-name="AddValue.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AddValue.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <marker date="1539748619599" expanded="true" signature="7:176" ph="..." />
                 <marker date="1539748619599" expanded="true" signature="237:775" ph="{...}" />
@@ -60,31 +56,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnTriggerEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
+      <file leaf-file-name="DestroyOnCollision.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/DestroyOnCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
-                <marker date="1539748398693" expanded="true" signature="6:44" ph="..." />
-                <marker date="1539748398693" expanded="true" signature="96:286" ph="{...}" />
-                <marker date="1539748398693" expanded="true" signature="182:219" ph="{...}" />
-                <marker date="1539748398693" expanded="true" signature="246:284" ph="{...}" />
+                <marker date="1539750800020" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539750800020" expanded="true" signature="128:257" ph="{...}" />
+                <marker date="1539750800020" expanded="true" signature="177:254" ph="{...}" />
+                <marker date="1539750800020" expanded="true" signature="219:251" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PowerUp.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PowerUp.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PowerUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="116">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1539748747564" expanded="false" signature="6:107" ph="..." />
-                <marker date="1539748747564" expanded="true" signature="149:304" ph="{...}" />
-                <marker date="1539748747564" expanded="true" signature="233:240" ph="{...}" />
-                <marker date="1539748747564" expanded="true" signature="295:302" ph="{...}" />
+                <marker date="1539748945895" expanded="true" signature="6:107" ph="..." />
+                <marker date="1539748945895" expanded="true" signature="167:287" ph="{...}" />
+                <marker date="1539748945895" expanded="true" signature="244:285" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,9 +93,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerMoveNew.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AddValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DestroyOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,10 +103,11 @@
         <option value="$PROJECT_DIR$/Assets/JustMoveCR.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerMoveNew.cs" />
-        <option value="$PROJECT_DIR$/Assets/OnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/AddValue.cs" />
         <option value="$PROJECT_DIR$/Assets/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/OnTriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerMoveNew.cs" />
+        <option value="$PROJECT_DIR$/Assets/DestroyOnCollision.cs" />
       </list>
     </option>
   </component>
@@ -188,12 +184,12 @@
       <updated>1539566174579</updated>
       <workItem from="1539566199531" duration="3509000" />
       <workItem from="1539743341146" duration="1156000" />
-      <workItem from="1539744684823" duration="3257000" />
+      <workItem from="1539744684823" duration="5623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7922000" />
+    <option name="totallyTimeSpent" value="10288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,7 +202,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -240,6 +235,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/PlayerMove.cs">
       <provider selected="true" editor-type-id="text-editor" />
@@ -270,31 +270,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerMoveNew.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/PowerUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1539746545489" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539746545489" expanded="true" signature="122:1375" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="341:382" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="402:856" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="501:520" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="555:612" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="637:696" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="879:1187" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="1112:1146" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="1153:1184" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="1201:1373" ph="{...}" />
-            <marker date="1539746545489" expanded="true" signature="1207:1272" ph="/* Jumpcode ... */" />
+            <marker date="1539748945895" expanded="true" signature="6:107" ph="..." />
+            <marker date="1539748945895" expanded="true" signature="167:287" ph="{...}" />
+            <marker date="1539748945895" expanded="true" signature="244:285" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AddValue.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <marker date="1539748619599" expanded="true" signature="7:176" ph="..." />
             <marker date="1539748619599" expanded="true" signature="237:775" ph="{...}" />
@@ -305,28 +296,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerMoveNew.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="94">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <marker date="1539748398693" expanded="true" signature="6:44" ph="..." />
-            <marker date="1539748398693" expanded="true" signature="96:286" ph="{...}" />
-            <marker date="1539748398693" expanded="true" signature="182:219" ph="{...}" />
-            <marker date="1539748398693" expanded="true" signature="246:284" ph="{...}" />
+            <marker date="1539749833095" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539749833095" expanded="true" signature="122:1372" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="341:382" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="402:853" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="501:520" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="555:612" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="637:696" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="876:1184" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="1109:1143" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="1150:1181" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="1198:1370" ph="{...}" />
+            <marker date="1539749833095" expanded="true" signature="1204:1269" ph="/* Jumpcode ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PowerUp.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="540">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DestroyOnCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <marker date="1539748747564" expanded="false" signature="6:107" ph="..." />
-            <marker date="1539748747564" expanded="true" signature="149:304" ph="{...}" />
-            <marker date="1539748747564" expanded="true" signature="233:240" ph="{...}" />
-            <marker date="1539748747564" expanded="true" signature="295:302" ph="{...}" />
+            <marker date="1539750800020" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539750800020" expanded="true" signature="128:257" ph="{...}" />
+            <marker date="1539750800020" expanded="true" signature="177:254" ph="{...}" />
+            <marker date="1539750800020" expanded="true" signature="219:251" ph="{...}" />
           </folding>
         </state>
       </provider>
