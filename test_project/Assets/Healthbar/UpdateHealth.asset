@@ -3,17 +3,17 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: MinMaxChangeValue
-  m_EditorClassIdentifier: Assembly-CSharp::MinMaxChangeValue
-  ChangeValue: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
-  MaxValue: {fileID: 11400000, guid: a7e011ecfbc3b944f82cc099ebde2cd4, type: 2}
-  MinValue: {fileID: 11400000, guid: c85e816dc3c22254c9739aa3a67b08b4, type: 2}
+  m_Script: {fileID: 11500000, guid: e46c599e6fdac2143a927548aab26706, type: 3}
+  m_Name: UpdateHealth
+  m_EditorClassIdentifier: 
+  ValueObj: {fileID: 11400000, guid: 8716553408240144da6049ae68c8f868, type: 2}
+  MaxValue: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
+  MinValue: {fileID: 11400000, guid: 9e719f9dc801fc44ba6c047d208303f2, type: 2}
   EventMax:
     m_PersistentCalls:
       m_Calls: []

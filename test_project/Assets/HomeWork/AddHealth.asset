@@ -3,20 +3,31 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24d46b2782e834e4292d78138c9a8f4c, type: 3}
-  m_Name: AddMoney
+  m_Name: AddHealth
   m_EditorClassIdentifier: 
-  ValueObj: {fileID: 11400000, guid: a68b8d6cf253f404d9f53b6f36344639, type: 2}
+  ValueObj: {fileID: 11400000, guid: 5545a2aca8dbd6f49ba3e047b6cbb892, type: 2}
   MaxValue: {fileID: 0}
   MinValue: {fileID: 0}
   EventMax:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   EventMin:
