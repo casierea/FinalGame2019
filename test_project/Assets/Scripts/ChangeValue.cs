@@ -10,12 +10,12 @@ using UnityEngine.Events;
 public class ChangeValue : ScriptableObject
 {
 	public FloatData ValueObj;
-	public FloatData MaxValue;
-	public FloatData MinValue;
+	//public FloatData MaxValue;
+	//public FloatData MinValue;
 	
 //something else that can do. not needed for script
-	public UnityEvent EventMax;
-	public UnityEvent EventMin;
+	//public UnityEvent EventMax;
+	//public UnityEvent EventMin;
 
 	public void AddValueToObject(FloatData data)
 	{

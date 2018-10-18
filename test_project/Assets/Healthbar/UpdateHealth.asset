@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,16 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46c599e6fdac2143a927548aab26706, type: 3}
   m_Name: UpdateHealth
   m_EditorClassIdentifier: 
-  ValueObj: {fileID: 11400000, guid: 8716553408240144da6049ae68c8f868, type: 2}
-  MaxValue: {fileID: 11400000, guid: 3b5052b14581ef64aa674c022a7267ef, type: 2}
-  MinValue: {fileID: 11400000, guid: 9e719f9dc801fc44ba6c047d208303f2, type: 2}
-  EventMax:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  EventMin:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  ValueObj: {fileID: 11400000, guid: 6a80754221ce8274c83ecaa8b16fc721, type: 2}
