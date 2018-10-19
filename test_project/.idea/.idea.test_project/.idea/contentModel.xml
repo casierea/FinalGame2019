@@ -42,6 +42,7 @@
           <e p="DropBoxVidoe" t="Include">
             <e p="CatStats.cs" t="Include" />
             <e p="IFStatementsVideo.cs" t="Include" />
+            <e p="InstancingBase.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
           <e p="InternetScripts" t="Include">
