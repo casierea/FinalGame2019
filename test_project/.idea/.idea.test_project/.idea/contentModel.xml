@@ -10,6 +10,7 @@
         <e p="Healthbar" t="Include">
           <e p="UpDateImageValue.cs" t="Include" />
         </e>
+        <e p="MultipleInstancing.cs" t="Include" />
         <e p="ObjectCollection.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ChangeValue.cs" t="Include" />

@@ -9,8 +9,8 @@ public class Instancing : MonoBehaviour
 	// Use this for initialization
 	void Update ()
 	{
-		if (Input.GetMouseButtonDown(0))
-		//if (Input.GetKeyDown(KeyCode.X)) // could do GetButtonDown and use mouse button
+		//if (Input.GetMouseButtonDown(0))
+		if (Input.GetKeyDown(KeyCode.X)) // could do GetButtonDown and use mouse button
 		{
 			Instantiate(Instance, transform.position, transform.rotation);
 			
