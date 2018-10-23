@@ -7,7 +7,7 @@ public class CharacterMover : MonoBehaviour
 {
 
 
-	private CharacterController controller;
+	public CharacterController controller;
 	public float Gravity = 9.81f;
 	public float MoveSpeed = 3.0f;
 	public float JumpSpeed = 3.0f;
