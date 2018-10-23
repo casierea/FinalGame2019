@@ -13,17 +13,17 @@
           <e p="AiAgents" t="Include">
             <e p="AIAgent1.cs" t="Include" />
           </e>
-          <e p="ChangeValue.cs" t="Include" />
-          <e p="ClassScripts" t="Include">
-            <e p="AddMoney.cs" t="Include" />
-            <e p="AddToCollection.cs" t="Include" />
-            <e p="AddValue.cs" t="Include" />
-            <e p="Animal.cs" t="Include" />
+          <e p="Character" t="Include">
             <e p="CharacterMover.cs" t="Include" />
+            <e p="EnemyMove.cs" t="Include" />
+            <e p="Move.cs" t="Include" />
+            <e p="Movements.cs" t="Include" />
+          </e>
+          <e p="ClassScripts" t="Include">
+            <e p="Animal.cs" t="Include" />
             <e p="Counter.cs" t="Include" />
             <e p="DestroyObject.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
-            <e p="EnemyMove.cs" t="Include" />
             <e p="EnumMovements.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
@@ -31,17 +31,14 @@
             <e p="LocalVars.cs" t="Include" />
             <e p="MinMaxChange.cs" t="Include" />
             <e p="MouseDownBehaviour.cs" t="Include" />
-            <e p="MouseEventBehaviour.cs" t="Include" />
-            <e p="Move.cs" t="Include" />
-            <e p="Movements.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="ObjectCollection.cs" t="Include" />
-            <e p="PowerUp.cs" t="Include" />
             <e p="TransformObject.cs" t="Include" />
-            <e p="TriggerEventBehaviour.cs" t="Include" />
-            <e p="TriggerID.cs" t="Include" />
             <e p="Variables.cs" t="Include" />
             <e p="WhatCanSeeIt.cs" t="Include" />
+          </e>
+          <e p="Collection" t="Include">
+            <e p="AddToCollection.cs" t="Include" />
           </e>
           <e p="DropBoxVidoe" t="Include">
             <e p="CatStats.cs" t="Include" />
@@ -52,11 +49,22 @@
           <e p="InternetScripts" t="Include">
             <e p="ZoyaDestroya.cs" t="Include" />
           </e>
+          <e p="MouseEventBehaviour.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />
             <e p="Speak.cs" t="Include" />
             <e p="SubtractValue.cs" t="Include" />
+          </e>
+          <e p="Trigger" t="Include">
+            <e p="PowerUp.cs" t="Include" />
+            <e p="TriggerEventBehaviour.cs" t="Include" />
+            <e p="TriggerID.cs" t="Include" />
+          </e>
+          <e p="Values" t="Include">
+            <e p="AddMoney.cs" t="Include" />
+            <e p="AddValue.cs" t="Include" />
+            <e p="ChangeValue.cs" t="Include" />
           </e>
         </e>
       </e>
