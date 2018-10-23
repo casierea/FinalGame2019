@@ -20,25 +20,19 @@
             <e p="Movements.cs" t="Include" />
           </e>
           <e p="ClassScripts" t="Include">
-            <e p="Animal.cs" t="Include" />
-            <e p="Counter.cs" t="Include" />
             <e p="DestroyObject.cs" t="Include" />
-            <e p="Dog.cs" t="Include" />
             <e p="EnumMovements.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
-            <e p="Instancing.cs" t="Include" />
             <e p="LocalVars.cs" t="Include" />
             <e p="MinMaxChange.cs" t="Include" />
-            <e p="MouseDownBehaviour.cs" t="Include" />
-            <e p="NameID.cs" t="Include" />
-            <e p="ObjectCollection.cs" t="Include" />
-            <e p="TransformObject.cs" t="Include" />
             <e p="Variables.cs" t="Include" />
             <e p="WhatCanSeeIt.cs" t="Include" />
           </e>
           <e p="Collection" t="Include">
             <e p="AddToCollection.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectCollection.cs" t="Include" />
           </e>
           <e p="DropBoxVidoe" t="Include">
             <e p="CatStats.cs" t="Include" />
@@ -46,20 +40,33 @@
             <e p="InstancingBase.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
+          <e p="Instance" t="Include">
+            <e p="Instancing.cs" t="Include" />
+          </e>
           <e p="InternetScripts" t="Include">
             <e p="ZoyaDestroya.cs" t="Include" />
           </e>
-          <e p="MouseEventBehaviour.cs" t="Include" />
+          <e p="MathOperators.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />
             <e p="Speak.cs" t="Include" />
             <e p="SubtractValue.cs" t="Include" />
           </e>
+          <e p="Print" t="Include">
+            <e p="Animal.cs" t="Include" />
+            <e p="Dog.cs" t="Include" />
+            <e p="TransformObject.cs" t="Include" />
+          </e>
           <e p="Trigger" t="Include">
+            <e p="MouseDownBehaviour.cs" t="Include" />
+            <e p="MouseEventBehaviour.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
             <e p="TriggerID.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Counter.cs" t="Include" />
           </e>
           <e p="Values" t="Include">
             <e p="AddMoney.cs" t="Include" />
