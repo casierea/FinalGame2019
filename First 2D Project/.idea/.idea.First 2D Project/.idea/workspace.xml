@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/AddValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DestroyOnCollision.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DestroyOnCollision.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveNew.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveNew.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PowerUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PowerUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TriggerEventBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TriggerEventBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrogJump.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrogJump.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -133,12 +122,12 @@
       <workItem from="1539566199531" duration="3509000" />
       <workItem from="1539743341146" duration="1156000" />
       <workItem from="1539744684823" duration="5623000" />
-      <workItem from="1540605582487" duration="1542000" />
+      <workItem from="1540605582487" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11830000" />
+    <option name="totallyTimeSpent" value="12470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -151,7 +140,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
