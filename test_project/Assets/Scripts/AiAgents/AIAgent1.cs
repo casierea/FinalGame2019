@@ -17,7 +17,9 @@ public class AIAgent1 : MonoBehaviour
 	
 	// Update is called once per frame
 	 void OnTriggerStay()
+	//void Update()
 	{
+		Debug.Log("finding player");
 		agent.destination = destination.position;
 	}
 }
