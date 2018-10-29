@@ -7,7 +7,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddValue.cs" t="Include" />
+          <e p="AiAgent.cs" t="Include" />
           <e p="DestroyOnCollision.cs" t="Include" />
+          <e p="EnemyMove.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar" t="Include">
             <e p="PlayerHealthStats.cs" t="Include" />
