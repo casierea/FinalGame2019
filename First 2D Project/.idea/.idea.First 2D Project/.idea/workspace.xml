@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/stupidEnemyScriptDoesntWork.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/stupidEnemyScriptDoesntWork.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding>
                 <marker date="1540777568762" expanded="true" signature="60:866" ph="{...}" />
                 <marker date="1540777568762" expanded="true" signature="218:797" ph="{...}" />
@@ -192,12 +193,12 @@
       <workItem from="1539744684823" duration="5623000" />
       <workItem from="1540605582487" duration="2182000" />
       <workItem from="1540765259242" duration="9856000" />
-      <workItem from="1540777101509" duration="992000" />
+      <workItem from="1540777101509" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23318000" />
+    <option name="totallyTimeSpent" value="24007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,7 +211,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -414,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding>
             <marker date="1540777568762" expanded="true" signature="60:866" ph="{...}" />
             <marker date="1540777568762" expanded="true" signature="218:797" ph="{...}" />
