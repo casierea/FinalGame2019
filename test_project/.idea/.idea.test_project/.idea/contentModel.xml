@@ -39,16 +39,19 @@
             <e p="InstancingBase.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
-          <e p="GameStates.cs" t="Include" />
           <e p="Instance" t="Include">
             <e p="Instancing.cs" t="Include" />
+          </e>
+          <e p="Instancing" t="Include">
+            <e p="MultipleInstancing.cs" t="Include" />
           </e>
           <e p="InternetScripts" t="Include">
             <e p="ZoyaDestroya.cs" t="Include" />
           </e>
-          <e p="Loops.cs" t="Include" />
+          <e p="Loops" t="Include">
+            <e p="Loops.cs" t="Include" />
+          </e>
           <e p="MathOperators.cs" t="Include" />
-          <e p="MultipleInstancing.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />
@@ -77,6 +80,7 @@
           </e>
         </e>
         <e p="SwitchStatements" t="Include">
+          <e p="GameStates.cs" t="Include" />
           <e p="PowerSwitch.cs" t="Include" />
           <e p="PowerUpStates.cs" t="Include" />
           <e p="PowSo.cs" t="Include" />
