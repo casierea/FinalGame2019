@@ -47,12 +47,17 @@ public class PlayerHealthStats : MonoBehaviour
 
 		if (HealthText != null)
 		{
-		//	UpDateHealthText("PerecentInt");
+		UpDateHealthText("PerecentInt");
 		}
 
 		//DamageFlash();
 		//HealFlash();
 		LockMinMaxHealth();
+	}
+
+	public void UpDateHealthText(string perecentint)
+	{
+		throw new NotImplementedException();
 	}
 
 	public void SetMaxHealth(int newMaxHealth)
@@ -117,7 +122,12 @@ public class PlayerHealthStats : MonoBehaviour
 
 	public void UpdateHealthBar()
 	{
-//		HealthBarSlider.maxValue = maxhealth;
+		HealthBarSlider.maxValue = maxhealth;
 		HealthBarSlider.value = currentHealth;
+	}
+
+	public void UpdateHealthText(string displayHow)
+	{	//shows a truncated version of current health.( int portion)
+		HealthText.text = Math.Truncate(currentHealth).ToString();
 	}
 }
