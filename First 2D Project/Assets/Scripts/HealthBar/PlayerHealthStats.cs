@@ -47,7 +47,7 @@ public class PlayerHealthStats : MonoBehaviour
 
 		if (HealthText != null)
 		{
-		UpDateHealthText("PerecentInt");
+		//UpDateHealthText("PerecentInt");
 		}
 
 		//DamageFlash();
@@ -57,7 +57,6 @@ public class PlayerHealthStats : MonoBehaviour
 
 	//public void UpDateHealthText(string perecentint);
 	
-//
 	public void SetMaxHealth(int newMaxHealth)
 	{
 		maxhealth = newMaxHealth;

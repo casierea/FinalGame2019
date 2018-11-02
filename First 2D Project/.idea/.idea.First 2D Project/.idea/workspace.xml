@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
       <file leaf-file-name="PlayerHealthStats.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="-1255">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <marker date="1541127352690" expanded="false" signature="6:162" ph="..." />
@@ -480,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="-1255">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <marker date="1541127352690" expanded="false" signature="6:162" ph="..." />
