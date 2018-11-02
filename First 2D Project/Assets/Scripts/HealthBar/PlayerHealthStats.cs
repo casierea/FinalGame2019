@@ -55,11 +55,9 @@ public class PlayerHealthStats : MonoBehaviour
 		LockMinMaxHealth();
 	}
 
-	public void UpDateHealthText(string perecentint)
-	{
-		throw new NotImplementedException();
-	}
-
+	//public void UpDateHealthText(string perecentint);
+	
+//
 	public void SetMaxHealth(int newMaxHealth)
 	{
 		maxhealth = newMaxHealth;
