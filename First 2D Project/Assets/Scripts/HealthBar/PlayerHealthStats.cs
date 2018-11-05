@@ -47,7 +47,7 @@ public class PlayerHealthStats : MonoBehaviour
 
 		if (HealthText != null)
 		{
-		//UpDateHealthText("PerecentInt");
+		UpDateHealthText("PerecentInt");
 		}
 
 		//DamageFlash();
