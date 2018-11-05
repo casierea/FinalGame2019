@@ -25,7 +25,7 @@ public class PlayerHealthStats : MonoBehaviour
 	public float HealFlashSpeed = 3f;
 	public Color HealFlashColor= new Color(1f, 0f, 0f, 0.1f);
 
-	private int maxhealth = 100;
+	private int maxHealth = 100;
 	private int miniumHealth = 0;
 	private float currentHealth = 100;
 	private bool damaged = false;
@@ -59,12 +59,12 @@ public class PlayerHealthStats : MonoBehaviour
 	
 	public void SetMaxHealth(int newMaxHealth)
 	{
-		maxhealth = newMaxHealth;
+		maxHealth = newMaxHealth;
 	}
 
 	public int GetMaxHealth()
 	{
-		return maxhealth;
+		return maxHealth;
 		
 	}
 	
@@ -87,9 +87,9 @@ public class PlayerHealthStats : MonoBehaviour
 			currentHealth = miniumHealth;
 		}
 		//if healing increases current health abovemax health set current health to max health
-		if (currentHealth > maxhealth)
+		if (currentHealth > maxHealth)
 		{
-			currentHealth = maxhealth;
+			currentHealth = maxHealth;
 		}
 	}
 	//TakeDamage subtracts the supplied damage amount from the player currrent health
@@ -110,7 +110,7 @@ public class PlayerHealthStats : MonoBehaviour
 		healing = true;
 		//Only increase current health if it is less than max health
 
-		if (currentHealth < maxhealth)
+		if (currentHealth < maxHealth)
 		{
 			currentHealth = currentHealth + healAmount;
 		}
@@ -119,12 +119,30 @@ public class PlayerHealthStats : MonoBehaviour
 
 	public void UpdateHealthBar()
 	{
-		HealthBarSlider.maxValue = maxhealth;
+		HealthBarSlider.maxValue = maxHealth;
 		HealthBarSlider.value = currentHealth;
 	}
 
 	public void UpdateHealthText(string displayHow)
 	{	//shows a truncated version of current health.( int portion)
-		HealthText.text = Math.Truncate(currentHealth).ToString();
+		//HealthText.text = Math.Truncate(currentHealth).ToString();
+		if (displayHow == "Int")
+		{
+			HealthText.text == Math.Truncate(currentHealth).ToString();
+		}
+		else if (displayHow == "Float")
+		{
+			HealthText.text = currentHealth.ToString();
+		}
+		else if (displayHow == "PercentFloat")
+		{
+			HealthText.text = ((currentHealth / maxHealth) * 100).ToString() + "%";
+		}
+		else if (displayHow == "PercentInt")
+		{
+			HealthText = Math.Truncate((currentHealth / maxHealth) * 100).ToString() + "%";
+		}
+		//Debug
+		Debug.Log("The Value supplied to HealthManage.UpdateHealthText is not one of the available options");
 	}
 }
