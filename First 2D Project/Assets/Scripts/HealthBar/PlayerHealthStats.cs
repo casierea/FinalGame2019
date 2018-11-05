@@ -27,7 +27,7 @@ public class PlayerHealthStats : MonoBehaviour
 
 	private int maxHealth = 100;
 	private int miniumHealth = 0;
-	private float currentHealth = 100;
+	public float currentHealth = 100;
 	private bool damaged = false;
 	private bool healing = false;
 
@@ -47,7 +47,7 @@ public class PlayerHealthStats : MonoBehaviour
 
 		if (HealthText != null)
 		{
-		UpDateHealthText("PerecentInt");
+			UpdateHealthText("PerecentInt");
 		}
 
 		//DamageFlash();
@@ -128,7 +128,7 @@ public class PlayerHealthStats : MonoBehaviour
 		//HealthText.text = Math.Truncate(currentHealth).ToString();
 		if (displayHow == "Int")
 		{
-			HealthText.text == Math.Truncate(currentHealth).ToString();
+			HealthText.text = Math.Truncate(currentHealth).ToString();
 		}
 		else if (displayHow == "Float")
 		{
@@ -140,7 +140,7 @@ public class PlayerHealthStats : MonoBehaviour
 		}
 		else if (displayHow == "PercentInt")
 		{
-			HealthText = Math.Truncate((currentHealth / maxHealth) * 100).ToString() + "%";
+			HealthText.text = Math.Truncate((currentHealth / maxHealth) * 100).ToString() + "%";
 		}
 		//Debug
 		Debug.Log("The Value supplied to HealthManage.UpdateHealthText is not one of the available options");

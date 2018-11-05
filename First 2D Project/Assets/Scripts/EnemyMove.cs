@@ -16,10 +16,10 @@ public class EnemyMove : MonoBehaviour {
         {
             Flip();
             Debug.Log("Collider hit" + hit.collider.tag.ToString());
-            if (hit.collider.tag == "Player")
-            {
-                Destroy(hit.collider.gameObject);
-            }
+            //if (hit.collider.tag == "Player")
+            //{
+                //Destroy(hit.collider.gameObject);
+            //}
         }
 
     }

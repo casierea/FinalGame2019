@@ -8,6 +8,7 @@
         <e p="Scripts" t="Include">
           <e p="AddValue.cs" t="Include" />
           <e p="AiAgent.cs" t="Include" />
+          <e p="DamageOnCollision.cs" t="Include" />
           <e p="DestroyOnCollision.cs" t="Include" />
           <e p="EnemyMove.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
