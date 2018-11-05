@@ -28,6 +28,7 @@
             <e p="Variables.cs" t="Include" />
             <e p="WhatCanSeeIt.cs" t="Include" />
           </e>
+          <e p="CoffeeTemperature.cs" t="Include" />
           <e p="Collection" t="Include">
             <e p="AddToCollection.cs" t="Include" />
             <e p="NameID.cs" t="Include" />

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4244673e-d3ed-483b-8d0b-d1622cd641d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.First 2D Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBar/PlayerHealthStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyMoveWorks.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyMoveWorks.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_project/.idea/.idea.test_project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project/.idea/.idea.test_project/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -259,12 +258,12 @@
       <workItem from="1540765259242" duration="9856000" />
       <workItem from="1540777101509" duration="1681000" />
       <workItem from="1541123020591" duration="2643000" />
-      <workItem from="1541379810640" duration="3281000" />
+      <workItem from="1541379810640" duration="3880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29931000" />
+    <option name="totallyTimeSpent" value="30530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
