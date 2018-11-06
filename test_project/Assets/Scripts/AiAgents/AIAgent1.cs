@@ -19,7 +19,7 @@ public class AIAgent1 : MonoBehaviour
 	 void OnTriggerStay()
 	//void Update()
 	{
-		Debug.Log("finding player");
+		//Debug.Log("finding player");
 		agent.destination = destination.position;
 	}
 }
