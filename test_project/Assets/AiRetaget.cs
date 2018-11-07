@@ -8,13 +8,13 @@ public class AiRetaget : MonoBehaviour {
     private NavMeshAgent agent;
 
     //public Transform Destination;
-    //public Transform Target;
+    public Transform Target;
     //public Transform Destination3;
     //can we have a target type set here?
     //target type text, read into scan for targets as tag
     //public textbox targeType;
     //collection TargetList
-    private List<GameObject> targetList;
+    private GameObject[] targetList;
     
     void Start()
     {
@@ -27,38 +27,46 @@ public class AiRetaget : MonoBehaviour {
     void Update()
     {
         //if (Destination != null) agent.destination = Destination.position;
-        if (Target != null) agent.destination = Target.position;
-    }
-
-    private List<GameObject> scanForTargets()
-    {
-        //make list of targets using findgameobjectswithtag
-        targetList = GameObject.FindGameObjectsWithTag("coin");
-        return targetList;
-    }
-
-}
-
-    
-/* 
-public GameObject FindClosestEnemy()
-{
-    GameObject[] gos;
-    gos = GameObject.FindGameObjectsWithTag("Enemy");
-    GameObject closest = null;
-    float distance = Mathf.Infinity;
-    Vector3 position = transform.position;
-    foreach (GameObject go in gos)
-    {
-        Vector3 diff = go.transform.position - position;
-        float curDistance = diff.sqrMagnitude;
-        if (curDistance < distance)
+        if (Target != null)
         {
-            closest = go;
-            distance = curDistance;
+            agent.destination = Target.position;
+        }
+        else
+        {
+            scanForTargets();
+            SetNewTarget();
         }
     }
-    return closest;
+
+    private void scanForTargets()
+    {
+        //make list of targets using findgameobjectswithtag
+        targetList = GameObject.FindGameObjectsWithTag("object");
+        foreach (var target in targetList)
+        {
+            Debug.Log(target.name);
+        }
+        Debug.Log(targetList.ToString());
+        //return targetList;
+    }
+
+public void SetNewTarget()
+{
+    GameObject closest = null;
+     float distance = Mathf.Infinity;
+     Vector3 position = transform.position;
+     foreach (GameObject go in targetList)
+     {
+         Vector3 diff = go.transform.position - position;
+         float curDistance = diff.sqrMagnitude;
+         if (curDistance < distance)
+         {
+             closest = go;
+             distance = curDistance;
+         }
+     }
+     //return closest;
+    Target = closest.transform;
 }
-}
-*/
+ }
+

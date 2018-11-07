@@ -22,6 +22,7 @@
           </e>
           <e p="ClassScripts" t="Include">
             <e p="DestroyObject.cs" t="Include" />
+            <e p="DestroyOnCollision.cs" t="Include" />
             <e p="EnumMovements.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
