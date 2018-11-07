@@ -44,9 +44,25 @@ public class AiRetaget : MonoBehaviour {
         targetList = GameObject.FindGameObjectsWithTag("object");
         if (targetList.Length == 0)
         {
-            Debug.Log(gameObject.GetComponent<DestroyOnCollision>().Score.ToString());
+            //Debug.Log(gameObject.GetComponent<DestroyOnCollision>().Score.ToString());
             var player = GameObject.FindGameObjectWithTag("Player");
-            Debug.Log(player.GetComponent<DestroyOnCollision>().Score.ToString());
+            int playerScore = player.GetComponent<DestroyOnCollision>().Score;
+            int Score = gameObject.GetComponent<DestroyOnCollision>().Score;
+            
+            if (playerScore > Score)
+            {
+                Debug.Log("Player wins!!");
+            }
+            else if (playerScore < Score)
+            {
+                Debug.Log("Enemy of Evil Wins!!");
+            }
+            else
+            {
+                Debug.Log("Tie with Evil!!");
+            }
+
+        //Debug.Log(player.GetComponent<DestroyOnCollision>().Score.ToString());
         }
         foreach (var target in targetList)
         {
