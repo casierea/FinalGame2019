@@ -42,6 +42,12 @@ public class AiRetaget : MonoBehaviour {
     {
         //make list of targets using findgameobjectswithtag
         targetList = GameObject.FindGameObjectsWithTag("object");
+        if (targetList.Length == 0)
+        {
+            Debug.Log(gameObject.GetComponent<DestroyOnCollision>().Score.ToString());
+            var player = GameObject.FindGameObjectWithTag("Player");
+            Debug.Log(player.GetComponent<DestroyOnCollision>().Score.ToString());
+        }
         foreach (var target in targetList)
         {
             Debug.Log(target.name);
