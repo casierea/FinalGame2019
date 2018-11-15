@@ -94,6 +94,7 @@
           <e p="StateMachine.cs" t="Include" />
           <e p="SwitchStatements.cs" t="Include" />
         </e>
+        <e p="TopScores.cs" t="Include" />
         <e p="UpdateAnums.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
