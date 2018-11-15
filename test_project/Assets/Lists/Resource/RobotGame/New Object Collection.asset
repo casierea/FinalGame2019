@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6ac5df0cd9bff4e87a0ad49cc08b77, type: 3}
   m_Name: New Object Collection
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
