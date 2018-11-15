@@ -10,6 +10,7 @@
           <e p="UpDateImageValue.cs" t="Include" />
         </e>
         <e p="ObjectControl.cs" t="Include" />
+        <e p="PlayerControl2d.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiRetaget.cs" t="Include" />
