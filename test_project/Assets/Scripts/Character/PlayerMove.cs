@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
-		Animator anim;
-		public float smooth = 1f;
+		public float smooth= 1f;
 		public float speed = 6.0F;
 		public float jumpSpeed = 8.0F;
 		public float gravity = 20.0F;
@@ -14,8 +13,10 @@ public class PlayerMove : MonoBehaviour {
 		private Vector3 moveDirection = Vector3.zero;
 
 		void Start(){
+			
+			//Can I use transform.rotation?
+			
 			Cursor.visible = false;
-			//anim = GetComponent();
 			Time.timeScale = 1;
 
 			lookRight = transform.rotation;
@@ -28,9 +29,7 @@ public class PlayerMove : MonoBehaviour {
 			CharacterController controller = GetComponent<CharacterController>();
 			if (controller.isGrounded) {
 
-				//anim.SetBool ("IsRunning", false);
-
-				moveDirection = new Vector3(-(Input.GetAxis("Vertical")), 0, Input.GetAxis("Horizontal"));
+				moveDirection = new Vector3(-(Input.GetAxis("Horizontal")), 0, Input.GetAxis("Vertical"));
 
 				if (Input.GetButton("Jump"))
 					moveDirection.y = jumpSpeed;
@@ -41,7 +40,7 @@ public class PlayerMove : MonoBehaviour {
 					moveDirection = transform.TransformDirection(-moveDirection);
 					moveDirection *= speed;
 
-					anim.SetBool ("IsRunning", true);
+					//anim.SetBool ("IsRunning", true);
 
 				}
 
@@ -49,7 +48,7 @@ public class PlayerMove : MonoBehaviour {
 					transform.rotation = lookRight;
 					moveDirection = transform.TransformDirection(moveDirection);
 					moveDirection *= speed;
-					anim.SetBool ("IsRunning", true);
+					//anim.SetBool ("IsRunning", true);
 				}
 			
 			}

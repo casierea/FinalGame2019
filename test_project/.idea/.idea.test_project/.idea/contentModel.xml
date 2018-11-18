@@ -10,8 +10,6 @@
           <e p="UpDateImageValue.cs" t="Include" />
         </e>
         <e p="ObjectControl.cs" t="Include" />
-        <e p="PlayerControl2d.cs" t="Include" />
-        <e p="PlayerMove.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiRetaget.cs" t="Include" />
@@ -22,9 +20,11 @@
           </e>
           <e p="Character" t="Include">
             <e p="CharacterMover.cs" t="Include" />
+            <e p="ClassCharacterMover.cs" t="Include" />
             <e p="EnemyMove.cs" t="Include" />
             <e p="Move.cs" t="Include" />
             <e p="Movements.cs" t="Include" />
+            <e p="PlayerMove.cs" t="Include" />
           </e>
           <e p="ClassScripts" t="Include">
             <e p="DestroyObject.cs" t="Include" />
