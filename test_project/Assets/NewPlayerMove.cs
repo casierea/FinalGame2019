@@ -3,11 +3,11 @@ using System.Collections;
 
 public class NewPlayerMove : MonoBehaviour
 {
+    public float Smooth = 1f;
+    public float Speed = 10.0f;
+    public float JumpSpeed = 100.0f;
+    public float Gravity = 15.0f;
 
-    public float smooth = 1f;
-    public float speed = 10.0F;
-    public float jumpSpeed = 15.0F;
-    public float gravity = 20.0F;
     private Quaternion lookLeft;
     private Quaternion lookRight;
     private Vector3 moveDirection = Vector3.zero;
@@ -21,38 +21,41 @@ public class NewPlayerMove : MonoBehaviour
         lookLeft = lookRight * Quaternion.Euler(0, 180, 0);
     }
 
-    void Update()
+    void update()
     {
         CharacterController controller = GetComponent<CharacterController>();
+        MoveLeftRight();
+
+        if (controller.isGrounded & Input.GetButton("Jump"))
+        {
+            Jump();
+        }
+
+        moveDirection.y -= Gravity * Gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
+    }
+
+    void Jump()
+    {
+        moveDirection.y = JumpSpeed;
+    }
+
+    void MoveLeftRight()
+    {
         moveDirection = new Vector3((Input.GetAxis("Horizontal")), 0, 0);
-        
+
         if (Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.LeftArrow))
         {
             transform.rotation = lookLeft;
             moveDirection = transform.TransformDirection(-moveDirection);
-            moveDirection *= speed;
+            moveDirection *= Speed;
         }
 
         if (Input.GetKey(KeyCode.D) | Input.GetKey(KeyCode.RightArrow))
         {
             transform.rotation = lookRight;
             moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
+            moveDirection *= Speed;
         }
-      
-        //Only jump if controller is grounded
-        if (controller.isGrounded & Input.GetButton("Jump"))
-        {
-            jump();
-        }
-
-        moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime); //move character
     }
-
-    void jump()
-    {
-        moveDirection.y = jumpSpeed;
-    }
-
 }
