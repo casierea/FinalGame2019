@@ -15,18 +15,20 @@ public class PlayerMove : MonoBehaviour {
 
 		void Start(){
 			Cursor.visible = false;
-			//anim = GetComponent  ();
+			//anim = GetComponent();
 			Time.timeScale = 1;
 
 			lookRight = transform.rotation;
 			lookLeft = lookRight * Quaternion.Euler(0, 180, 0); 
 		}
 
-		void Update() {
-			CharacterController controller = GetComponent();
+		void Update() 
+		{
+			//controller = GetComponent<CharacterController>();
+			CharacterController controller = GetComponent<CharacterController>();
 			if (controller.isGrounded) {
 
-				anim.SetBool ("IsRunning", false);
+				//anim.SetBool ("IsRunning", false);
 
 				moveDirection = new Vector3(-(Input.GetAxis("Vertical")), 0, Input.GetAxis("Horizontal"));
 
