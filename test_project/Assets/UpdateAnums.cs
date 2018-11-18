@@ -14,6 +14,6 @@ public class UpdateAnums : MonoBehaviour
 	}
 	
 	void Update () {
-		anims.SetFloat("Speed", Speed);
+		//anims.SetFloat("Speed", Speed);
 	}
 }

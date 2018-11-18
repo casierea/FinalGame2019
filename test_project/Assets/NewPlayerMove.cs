@@ -5,8 +5,8 @@ public class NewPlayerMove : MonoBehaviour
 {
     public float Smooth = 1f;
     public float Speed = 10.0f;
-    public float JumpSpeed = 100.0f;
-    public float Gravity = 15.0f;
+    public float JumpSpeed = 20.0f;
+    public float Gravity = 9.10f;
 
     private Quaternion lookLeft;
     private Quaternion lookRight;
@@ -21,7 +21,7 @@ public class NewPlayerMove : MonoBehaviour
         lookLeft = lookRight * Quaternion.Euler(0, 180, 0);
     }
 
-    void update()
+    void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
         MoveLeftRight();
@@ -43,7 +43,7 @@ public class NewPlayerMove : MonoBehaviour
     void MoveLeftRight()
     {
         moveDirection = new Vector3((Input.GetAxis("Horizontal")), 0, 0);
-
+        
         if (Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.LeftArrow))
         {
             transform.rotation = lookLeft;

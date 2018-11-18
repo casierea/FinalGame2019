@@ -129,10 +129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 039c3181140135347835b31d05cad914, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smooth: 1
-  speed: 10
-  jumpSpeed: 15
-  gravity: 20
+  Smooth: 1
+  Speed: 6
+  JumpSpeed: 20
+  Gravity: 9.1
 --- !u!1 &1001547931
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +212,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4207927506439974, guid: 2e9b2f3a323fc83478a083bd26ba4cef, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.9
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4207927506439974, guid: 2e9b2f3a323fc83478a083bd26ba4cef, type: 2}
       propertyPath: m_LocalPosition.z
