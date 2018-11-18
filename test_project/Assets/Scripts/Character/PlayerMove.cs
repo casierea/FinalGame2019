@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour {
 
 		public float smooth= 1f;
-		public float speed = 6.0F;
+		public float speed = 10.0F;
 		public float jumpSpeed = 8.0F;
 		public float gravity = 20.0F;
 		private Quaternion lookLeft;
@@ -29,26 +29,24 @@ public class PlayerMove : MonoBehaviour {
 			CharacterController controller = GetComponent<CharacterController>();
 			if (controller.isGrounded) {
 
-				moveDirection = new Vector3(-(Input.GetAxis("Horizontal")), 0, Input.GetAxis("Vertical"));
+				moveDirection = new Vector3((Input.GetAxis("Horizontal")), 0, 0);
 
 				if (Input.GetButton("Jump"))
+				{
 					moveDirection.y = jumpSpeed;
+				}
 
 				if (Input.GetKey(KeyCode.A)){
 
 					transform.rotation = lookLeft;
 					moveDirection = transform.TransformDirection(-moveDirection);
 					moveDirection *= speed;
-
-					//anim.SetBool ("IsRunning", true);
-
 				}
 
 				if (Input.GetKey(KeyCode.D)){
 					transform.rotation = lookRight;
 					moveDirection = transform.TransformDirection(moveDirection);
 					moveDirection *= speed;
-					//anim.SetBool ("IsRunning", true);
 				}
 			
 			}
