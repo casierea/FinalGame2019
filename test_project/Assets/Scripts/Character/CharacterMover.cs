@@ -14,37 +14,61 @@ public class CharacterMover : MonoBehaviour
 	
 	private Vector3 position;
 	private Vector3 rotation;
+
+	public float MoveX;
 	
-	// Use this for initialization
 	void Start ()
 	{
 		controller = GetComponent<CharacterController>();
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+
+	void Update()
 	{
-		if (controller.isGrounded)
-		{
-			position.Set(0, 0, MoveSpeed*Input.GetAxis("Vertical"));
-			rotation.Set(0, Input.GetAxis("Horizontal"), 0);
-			transform.Rotate(rotation);
-			position = transform.TransformDirection(position);
-								    //position.z = MoveSpeed*Input.GetAxis("Vertical");
-						             //rotation.y = Input.GetAxis("Horizontal");
-							         //transform.Rotate(rotation);
-							         //position = transform.TransformDirection(position);
-									//			
-												//position.x = Rotate* Input.GetAxis("Horizontal");										//get axis is built into Unity
-											       // Vertical is s w
-													
-                                
-			if (Input.GetButton("Jump"))
-			{
-				position.y = JumpSpeed;
-			}
-		}
-		position.y -= Gravity * Time.deltaTime;
-		controller.Move(position * Time.deltaTime);
+		PlayerMove();
+		//if (controller.isGrounded)
 	}
+
+		void PlayerMove()
+			{
+			//Controls
+			MoveX = Input.GetAxis("Horizontal");
+			//Jump Control
+			if (Input.GetButtonDown("Jump") && controller.isGrounded == true)
+			{
+				//Jump()
+			}
+
+			if (MoveX < 0.0f)
+			{
+				GetComponent<SpriteRenderer>().flipX = false;
+			}
+			else if (MoveX > 0.0f)
+			{
+				GetComponent<SpriteRenderer>().flipX = true;
+			}
+			//This is the physics
+			gameObject.GetComponent<Rigidbody>().velocity = new Vector2(MoveX * MoveSpeed,gameObject.GetComponent<Rigidbody>().velocity.y);
+			}
+			//position.Set(0, 0, MoveSpeed*Input.GetAxis("Horizontal"));
+			//rotation.Set(0, Input.GetAxis("Vertical"), 0);
+			//transform.Rotate(rotation);
+			//position = transform.TransformDirection(position);
+			//position.z = MoveSpeed*Input.GetAxis("Vertical");
+			 //rotation.y = Input.GetAxis("Horizontal");
+			 //transform.Rotate(rotation);
+			 //position = transform.TransformDirection(position);
+					
+						//position.x = Rotate* Input.GetAxis("Horizontal");	//get axis is built into Unity
+						   // Vertical is s w
+							
+                                
+			//if (Input.GetButton("Jump"))
+			//{
+			//	position.y = JumpSpeed;
+			//}
+		//}
+		//position.y -= Gravity * Time.deltaTime;
+		//controller.Move(position * Time.deltaTime);
+	////}
 }
