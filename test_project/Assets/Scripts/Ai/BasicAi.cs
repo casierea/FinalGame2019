@@ -9,7 +9,7 @@ public class BasicAi : MonoBehaviour
 
 	//public Transform Destination;
 	public Transform Target;
-	//public Transform Destination3;
+	public Transform Target02;
 
 
 	void Start()
