@@ -49,16 +49,16 @@ public class AiRetaget : MonoBehaviour {
             int playerScore = player.GetComponent<DestroyOnCollision>().Score;
             int Score = gameObject.GetComponent<DestroyOnCollision>().Score;
             
-            if (playerScore > Score)
+           if (playerScore > Score)
             {
                 Debug.Log("Player wins!!");
+           }
+           else if (playerScore < Score)
+           {
+               Debug.Log("Enemy of Evil Wins!!");
             }
-            else if (playerScore < Score)
-            {
-                Debug.Log("Enemy of Evil Wins!!");
-            }
-            else
-            {
+           else
+           {
                 Debug.Log("Tie with Evil!!");
             }
 
