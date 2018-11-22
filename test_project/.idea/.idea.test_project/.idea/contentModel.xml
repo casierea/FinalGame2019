@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ai" t="Include">
+          <e p="AiHitandGo.cs" t="Include" />
           <e p="AiHorizontal.cs" t="Include" />
         </e>
         <e p="Eventrepeat.cs" t="Include" />
@@ -15,6 +16,7 @@
         <e p="NewPlayerMove.cs" t="Include" />
         <e p="ObjectCollisionDestroy.cs" t="Include" />
         <e p="ObjectControl.cs" t="Include" />
+        <e p="ObjectHealth.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiRetaget.cs" t="Include" />

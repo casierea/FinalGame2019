@@ -11,12 +11,17 @@ public class AiHorizontal : MonoBehaviour
 	public Vector3Data Destination1;
 	public Vector3Data Destination2;
 	//public Vector3 Destination3;
+	public List<Vector3Data> PatrolPoints = new List<Vector3Data>();
 	
 	// Use this for initialization
 	void Start ()
 	{
 		agent = GetComponent<NavMeshAgent>();
-		agent.destination = Destination1.Value;
+		//agent.destination = Destination1.Value;
+		PatrolPoints.Add(Destination1);
+		PatrolPoints.Add(Destination2);
+		agent.destination = PatrolPoints[0].Value;
+		Debug.Log(agent.destination.ToString());
 	}
 	
 	// Update is called once per frame
