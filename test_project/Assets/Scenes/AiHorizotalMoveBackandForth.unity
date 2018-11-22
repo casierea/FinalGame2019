@@ -462,12 +462,12 @@ Prefab:
     - target: {fileID: 114421507426957832, guid: 2e9b2f3a323fc83478a083bd26ba4cef,
         type: 2}
       propertyPath: jumpSpeed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114421507426957832, guid: 2e9b2f3a323fc83478a083bd26ba4cef,
         type: 2}
       propertyPath: gravity
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1733795714097478, guid: 2e9b2f3a323fc83478a083bd26ba4cef, type: 2}
       propertyPath: m_TagString

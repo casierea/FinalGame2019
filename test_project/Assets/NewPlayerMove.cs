@@ -42,7 +42,7 @@ public class NewPlayerMove : MonoBehaviour
 
     void MoveLeftRight()
     {
-        moveDirection = new Vector3((Input.GetAxis("Horizontal")), 0, 0);
+        moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
         
         if (Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.LeftArrow))
         {
