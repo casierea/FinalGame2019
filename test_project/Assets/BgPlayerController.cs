@@ -32,7 +32,8 @@ public class BgPlayerController : MonoBehaviour
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("Pick Up"))
-		{
+		{   
+			other.gameObject.SetActive(false);
 			count = count + 1;
 			SetCountText();
 
@@ -45,7 +46,7 @@ public class BgPlayerController : MonoBehaviour
 		CountText.text = "Count:" + count.ToString();
 		if (count >= 12)
 		{
-			WinText.text = "You win all the points!";
+			WinText.text = "You win!";
 		}
 	}
 }
