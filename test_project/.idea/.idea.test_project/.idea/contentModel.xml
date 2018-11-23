@@ -11,6 +11,7 @@
         </e>
         <e p="BallGame" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="Rotator.cs" t="Include" />
         </e>
         <e p="BgPlayerController.cs" t="Include" />
         <e p="Eventrepeat.cs" t="Include" />
