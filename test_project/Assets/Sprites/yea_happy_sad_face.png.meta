@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: 6df1ee10f83b2174e93bc85af40d7069
+guid: b84d6d0e27b806f4085abc06ab789471
 TextureImporter:
   fileIDToRecycleName:
-    21300000: snake
+    21300000: happy_face
+    21300002: sad_face
+    21300004: yeah
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,21 +87,61 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snake
+      name: happy_face
       rect:
         serializedVersion: 2
-        x: 162
-        y: 194
-        width: 319
-        height: 135
+        x: 3
+        y: 340
+        width: 164
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 11}
+      border: {x: 9, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb80160595fd2e54e98693abbbc9d80b
+      spriteID: 0bd26b5a981f94d4cb13d6f7457bef70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sad_face
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 307
+        width: 181
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 8, z: 7, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c143c180bf0b4d43ab185207961bb60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeah
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 11
+        width: 429
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cafdc6a39f7b24f8744086458f07b8
       vertices: []
       indices: 
       edges: []
@@ -107,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f7c54734981641e43ac07212dda70b55
+    spriteID: 65540615ef4fac6458df83ec3fc5f1a8
     vertices: []
     indices: 
     edges: []
