@@ -24,9 +24,9 @@ public class ClassCharacterMover : MonoBehaviour
     {
         if (Controller.isGrounded)
         {
-            position.Set(0,0, MoveSpeed*Input.GetAxis("Horizontal"));
-            rotation.Set(0, Input.GetAxis("Vertical"), 0);
-            transform.Rotate(rotation);
+            position.Set(MoveSpeed*Input.GetAxis("Horizontal"),0,0);
+           // rotation.Set(0, Input.GetAxis("Vertical"), 0);
+            //transform.Rotate(rotation);
             position = transform.TransformDirection(position);
 			
             if (Input.GetButton("Jump"))
