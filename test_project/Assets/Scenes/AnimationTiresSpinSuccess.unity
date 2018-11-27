@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 217582061}
   - component: {fileID: 217582060}
   - component: {fileID: 217582059}
+  - component: {fileID: 217582064}
   m_Layer: 0
   m_Name: Bird_head
   m_TagString: Untagged
@@ -416,6 +417,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &217582064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 217582058}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27b846881f19234d8eaafe231ae8c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &552745900
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,13 +597,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1871214030}
   - component: {fileID: 1871214029}
+  - component: {fileID: 1871214031}
   m_Layer: 0
   m_Name: birdcar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1871214029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -651,6 +664,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1871214031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871214028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27b846881f19234d8eaafe231ae8c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032821224
 GameObject:
   m_ObjectHideFlags: 0
