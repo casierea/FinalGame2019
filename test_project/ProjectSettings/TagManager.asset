@@ -8,6 +8,7 @@ TagManager:
   - Target
   - Ground
   - Pick Up
+  - Ai
   layers:
   - Default
   - TransparentFX
