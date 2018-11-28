@@ -61,6 +61,7 @@
             <e p="CatStats.cs" t="Include" />
             <e p="IFStatementsVideo.cs" t="Include" />
             <e p="InstancingBase.cs" t="Include" />
+            <e p="Nov27Instancer.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
           <e p="Instance" t="Include">
@@ -87,6 +88,9 @@
             <e p="Animal.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
             <e p="TransformObject.cs" t="Include" />
+          </e>
+          <e p="SemesterFinal" t="Include">
+            <e p="FireBullet.cs" t="Include" />
           </e>
           <e p="Trigger" t="Include">
             <e p="MouseDownBehaviour.cs" t="Include" />

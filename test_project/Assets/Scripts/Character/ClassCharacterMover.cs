@@ -34,7 +34,21 @@ public class ClassCharacterMover : MonoBehaviour
                 position.y = JumpSpeed;
             }
         }
+        flipSprite();
         position.y -= Gravity * Time.deltaTime;
         Controller.Move(position * Time.deltaTime);
+    }
+
+    private void flipSprite()
+    {
+        var facing = Input.GetAxis("Horizontal");
+        if (facing > 0.0f)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (facing < 0.0f)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 }

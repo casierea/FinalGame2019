@@ -15,12 +15,13 @@ public class MultipleInstancing : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.J)) // could do GetButtonDown and use mouse button
 			{
 				Instantiate(InstanceTwo, transform.position, transform.rotation);
-
+	Debug.Log("Instance 2");
 			}
 
 		if (Input.GetKeyDown(KeyCode.K))
 		{
 			Instantiate(InstanceThree, transform.position, transform.rotation);
+			Debug.Log("Instance 3");
 		}
 
 		if (Input.GetKeyDown(KeyCode.L))

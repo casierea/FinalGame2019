@@ -8,7 +8,7 @@ public class InstancingBase : ScriptableObject
 {
     private Vector3 position;
     
-    public GameObject Prefab;
+    public GameObject prefab;
 
     public void InstanceObject(GameObject prefab)
     {

@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Pick Up
   - Ai
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Ground
   - AI
   - Target
-  - 
+  - Weapon
   - 
   - 
   - 
