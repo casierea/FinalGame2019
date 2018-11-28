@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23253127111621726}
   - component: {fileID: 135486659354086412}
   - component: {fileID: 54491715219999014}
-  - component: {fileID: 75998788566216256}
   - component: {fileID: 114152617258637202}
   m_Layer: 9
   m_Name: Bullet 1
@@ -102,17 +101,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &75998788566216256
-ConstantForce:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1539764956418052}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 100, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!114 &114152617258637202
 MonoBehaviour:
   m_ObjectHideFlags: 1

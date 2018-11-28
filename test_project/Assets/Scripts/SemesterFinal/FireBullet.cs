@@ -9,8 +9,17 @@ public class FireBullet : MonoBehaviour
 	public GameObject Instance;
 	
 	public int BulletForce = 100;
-	
+	public GameObject Player;
+	public ClassCharacterMover CCM;
+
+	private float rotatex;
 	// Update is called once per frame
+	void Start()
+	{
+		CCM = Player.GetComponent<ClassCharacterMover>();
+		rotatex = transform.rotation.x;
+	}
+	
 	void Update ()
 	{
 		if (Input.GetButtonDown("Fire1"))
@@ -23,19 +32,22 @@ public class FireBullet : MonoBehaviour
 	{
 		GameObject Bullet;
 		Bullet = Instantiate(Instance, transform.position, transform.rotation);
-		if(gameObject.GetComponentInParent<SpriteRenderer>().flipX != true)
-		{
+		if( CCM.FacingLeft == true)
+		{	
 			//BulletForce = BulletForce * -1;
-			BulletForce = -100;
-			Debug.Log(BulletForce.ToString() + gameObject.GetComponentInParent<SpriteRenderer>().flipX);
+			BulletForce = BulletForce;
+			print("shooting left");
 			
-			Bullet.GetComponent<Rigidbody>().AddForce(BulletForce,0,0);
+			Bullet.GetComponent<Rigidbody>().AddForce(-BulletForce,0,0);
 		}
-		else if (GetComponentInParent<SpriteRenderer>().flipX)
+		else if (CCM.FacingLeft == false)
 		{
 			//BulletForce = Math.Abs(BulletForce);
-			BulletForce = 100;
+			
+			//BulletForce = 100;
+			print("shooting right");
 			Bullet.GetComponent<Rigidbody>().AddForce(BulletForce,0,0);	
+			
 		}
 		
 	}

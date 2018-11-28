@@ -11,13 +11,15 @@ public class ClassCharacterMover : MonoBehaviour
     public float Gravity = 9.81f;
     public float MoveSpeed = 3.0f;
     public float JumpSpeed = 3.0f;
-	
+    public bool FacingLeft;
+    private float Scalex;
     private Vector3 position;
     private Vector3 rotation;
 	
     void Start ()
     {
         Controller = GetComponent<CharacterController>();
+        Scalex = transform.localScale.x;
     }
 	
     void Update ()
@@ -44,11 +46,19 @@ public class ClassCharacterMover : MonoBehaviour
         var facing = Input.GetAxis("Horizontal");
         if (facing > 0.0f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            Vector3 Scale = transform.localScale;
+            Scale.x = -Scalex;
+            transform.localScale = Scale;
+            FacingLeft = false;
         }
         else if (facing < 0.0f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            Vector3 Scale = transform.localScale;
+            Scale.x = Scalex;
+            transform.localScale = Scale;
+            FacingLeft = true;
         }
+        
     }
+   
 }
