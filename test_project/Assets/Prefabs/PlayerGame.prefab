@@ -263,7 +263,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instance: {fileID: 1539764956418052, guid: df4e5b437b604f64f9a12d044f5ae25d, type: 2}
-  BulletForce: 100
+  BulletForce: 1000
+  Player: {fileID: 1240581455029444}
+  CCM: {fileID: 0}
 --- !u!114 &114676072934140592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -278,6 +280,7 @@ MonoBehaviour:
   Gravity: 9.81
   MoveSpeed: 3
   JumpSpeed: 3
+  FacingLeft: 0
 --- !u!114 &114948762719099740
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -24,8 +24,9 @@ GameObject:
   - component: {fileID: 135486659354086412}
   - component: {fileID: 54491715219999014}
   - component: {fileID: 114152617258637202}
+  - component: {fileID: 75776550084740258}
   m_Layer: 9
-  m_Name: Bullet 1
+  m_Name: ConstantBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,6 +102,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!75 &75776550084740258
+ConstantForce:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539764956418052}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 100, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!114 &114152617258637202
 MonoBehaviour:
   m_ObjectHideFlags: 1
