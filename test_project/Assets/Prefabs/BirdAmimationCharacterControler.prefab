@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114250729935292416}
   - component: {fileID: 143939891958060646}
   m_Layer: 0
-  m_Name: BirdCarAnimationSpin
+  m_Name: BirdAmimationCharacterControler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
