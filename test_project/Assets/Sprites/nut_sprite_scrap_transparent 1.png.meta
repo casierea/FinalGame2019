@@ -4,6 +4,15 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Pow
     21300002: ScarpMetal01
+    21300004: nut_sprite_scrap_transparent 1_0
+    21300006: nut_sprite_scrap_transparent 1_1
+    21300008: nut_sprite_scrap_transparent 1_2
+    21300010: nut_sprite_scrap_transparent 1_3
+    21300012: nut_sprite_scrap_transparent 1_4
+    21300014: nut_sprite_scrap_transparent 1_5
+    21300016: nut_sprite_scrap_transparent 1_6
+    21300018: nut_sprite_scrap_transparent 1_7
+    21300020: nut_sprite_scrap_transparent 1_8
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,41 +95,181 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pow
+      name: nut_sprite_scrap_transparent 1_0
       rect:
         serializedVersion: 2
-        x: 186
-        y: 307
-        width: 326
-        height: 205
+        x: 12
+        y: 452
+        width: 100
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1f64b934526b546925b8e6e46e08e5
+      spriteID: e3f11a7126a957440b7a982315ce74a2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScarpMetal01
+      name: nut_sprite_scrap_transparent 1_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
-        width: 272
-        height: 185
+        x: 127
+        y: 428
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 29}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1e2091eef1aed0408fbf475a1b3a1f7
+      spriteID: fd5557b965e86234687ea2a4aa27719b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 308
+        width: 284
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815cdcc1fbc9d6c44865ea8db8b61236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 359
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b21d5496ed4b994e810efa8b54aafc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 364
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef88862a6fb34a34fa70d41e38aaec7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 243
+        width: 300
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9a905e47e66349be3d442647f14ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 271
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadb17dd34ce38748b54d6a9f7f1fb66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_7
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 16
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ce7b4e1c2463644ac74de3f916940e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nut_sprite_scrap_transparent 1_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 11
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba816ba98e79d294daca57be287e353b
       vertices: []
       indices: 
       edges: []
