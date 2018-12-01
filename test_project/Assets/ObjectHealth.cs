@@ -8,7 +8,8 @@ public class ObjectHealth : MonoBehaviour
 	public FloatData MinHealth;
 	public FloatData StartHealth;
 	public float CurrentHealth;
-	
+	public Sprite Dead01;
+	public Sprite Dead02;
 
 	// Use this for initialization
 	private void Start ()
@@ -43,13 +44,30 @@ public class ObjectHealth : MonoBehaviour
 		{
 			//die
 			gameObject.GetComponent<BoxCollider>().enabled = false;
-			gameObject.GetComponent<CharacterController>().enabled = false;
+			
+			if (gameObject.GetComponent<CharacterController>())
+			{
+				gameObject.GetComponent<CharacterController>().enabled = false;
+			}
+
 			if (gameObject.GetComponent<Rigidbody>() != null)
 			{
 				gameObject.GetComponent<Rigidbody>().freezeRotation = false;
 			}
-			
+
+			if (Dead01)
+			{
+				gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead01;
+				StartCoroutine("ChangeDeathSprite");
+			}
+
+			gameObject.GetComponent<ObjectHealth>().enabled = false;
 		}
 	}
-	
+
+	IEnumerator ChangeDeathSprite()
+	{
+		yield return new WaitForSeconds(1);
+		gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead02;
+	}
 }

@@ -5724,40 +5724,44 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalPosition.y
       value: 1.56
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4695840020012802, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+    - target: {fileID: 4121576006548178, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 1386757781193114, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
+      propertyPath: m_Name
+      value: CrateWithDeadSmoke
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3e0f5fe21045ded48b772f5a6f8a1a63, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 3cd3587e7075ac44883d31befe612ce2, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1412450867
 Prefab:

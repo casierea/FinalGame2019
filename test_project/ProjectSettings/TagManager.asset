@@ -11,6 +11,8 @@ TagManager:
   - Ai
   - Weapon
   - PowerUpBolt
+  - bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

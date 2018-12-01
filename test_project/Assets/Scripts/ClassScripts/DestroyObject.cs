@@ -12,8 +12,10 @@ public class DestroyObject : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision other)
 	{
-		Destroy(other.gameObject); 
+		//Destroy(other.gameObject); 
+	
 		Destroy(gameObject);
+		
 																					// makes bullets collide and destory eachother
 	}
 }
