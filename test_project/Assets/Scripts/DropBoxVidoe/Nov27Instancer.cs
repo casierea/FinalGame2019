@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Nov27Instancer : MonoBehaviour {
+public class Nov27Instancer : ScriptableObject {
 	
 	private Vector3 position;
     

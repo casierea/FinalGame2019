@@ -32,7 +32,8 @@ public class FireBullet : MonoBehaviour
 	{
 		GameObject Bullet;
 		Bullet = Instantiate(Instance, transform.position, transform.rotation);
-		if( CCM.FacingLeft == true)
+		if( CCM.FacingLeft == true) 
+		//if(gameObject.GetComponentInParent<SpriteRenderer>().flipX)
 		{	
 			//BulletForce = BulletForce * -1;
 			BulletForce = BulletForce;
@@ -41,6 +42,7 @@ public class FireBullet : MonoBehaviour
 			Bullet.GetComponent<Rigidbody>().AddForce(-BulletForce,0,0);
 		}
 		else if (CCM.FacingLeft == false)
+		//else if(gameObject.GetComponentInParent<SpriteRenderer>().flipX == false)
 		{
 			//BulletForce = Math.Abs(BulletForce);
 			
