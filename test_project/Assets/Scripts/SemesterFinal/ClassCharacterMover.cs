@@ -7,7 +7,7 @@ public class ClassCharacterMover : MonoBehaviour
 {
 
     private CharacterController Controller;
-	
+    public bool CanMove = false;
     public float Gravity = 9.81f;
     public float MoveSpeed = 3.0f;
     public float JumpSpeed = 3.0f;
@@ -21,24 +21,43 @@ public class ClassCharacterMover : MonoBehaviour
         Controller = GetComponent<CharacterController>();
         Scalex = transform.localScale.x;
     }
-	
-    void Update ()
+
+    public void StartMovement()
     {
-        if (Controller.isGrounded)
+        CanMove = true;
+        StartCoroutine(Move());
+    }
+
+    public void StopMovement()
+    {
+        CanMove = false;
+    }
+    
+    IEnumerator Move ()
+    {
+        while (CanMove)
         {
-            position.Set(MoveSpeed*Input.GetAxis("Horizontal"),0,0);
-           // rotation.Set(0, Input.GetAxis("Vertical"), 0);
-            //transform.Rotate(rotation);
-            position = transform.TransformDirection(position);
-			
-            if (Input.GetButton("Jump"))
+
+
+            if (Controller.isGrounded)
             {
-                position.y = JumpSpeed;
+                position.Set(MoveSpeed * Input.GetAxis("Horizontal"), 0, 0);
+                // rotation.Set(0, Input.GetAxis("Vertical"), 0);
+                //transform.Rotate(rotation);
+                position = transform.TransformDirection(position);
+
+                if (Input.GetButton("Jump"))
+                {
+                    position.y = JumpSpeed;
+                }
             }
+
+            flipSprite();
+            position.y -= Gravity * Time.deltaTime;
+            Controller.Move(position * Time.deltaTime);
+
+            yield return null;
         }
-        flipSprite();
-        position.y -= Gravity * Time.deltaTime;
-        Controller.Move(position * Time.deltaTime);
     }
 
     private void flipSprite()

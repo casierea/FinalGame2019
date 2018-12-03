@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\casie\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\casie\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_test_project.-73018778.00" t="ExcludeRecursive" />
-    <e p="C:\Users\casie\Documents\scripting_1610\unity_projects\test_project" t="IncludeRecursive">
+    <e p="C:\Users\wunderduck\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_test_project.-867570932.00" t="ExcludeRecursive" />
+    <e p="C:\Users\wunderduck\unity_repos\unity_projects\test_project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ai" t="Include">
@@ -17,9 +16,11 @@
         </e>
         <e p="BgPlayerController.cs" t="Include" />
         <e p="Eventrepeat.cs" t="Include" />
+        <e p="GameStatesData.cs" t="Include" />
         <e p="Healthbar" t="Include">
           <e p="UpDateImageValue.cs" t="Include" />
         </e>
+        <e p="MultiObjHealth.cs" t="Include" />
         <e p="NewPlayerMove.cs" t="Include" />
         <e p="ObjectCollisionDestroy.cs" t="Include" />
         <e p="ObjectControl.cs" t="Include" />

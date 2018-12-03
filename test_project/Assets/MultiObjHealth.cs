@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectHealth : MonoBehaviour
+public class MultiObjHealth : MonoBehaviour
 {
+	public List<GameObject> Pieces;
 	public FloatData MaxHealth;
 	public FloatData MinHealth;
 	public FloatData StartHealth;
@@ -64,7 +65,11 @@ public class ObjectHealth : MonoBehaviour
 			}
 
 			gameObject.GetComponent<ObjectHealth>().enabled = false;
-			gameObject.GetComponent<SpriteRenderer>().enabled = false;
+			//gameObject.GetComponent<SpriteRenderer>().enabled = false;
+			foreach (GameObject piece in Pieces)
+			{
+				piece.GetComponent<SpriteRenderer>().enabled = false;
+			}
 		}
 	}
 
@@ -78,7 +83,7 @@ public class ObjectHealth : MonoBehaviour
 		Destroy(DeathObject01, 1);
 		yield return new WaitForSeconds(1);
 		Deathobject02 = Instantiate(Dead02, transform.position, Quaternion.identity);
-		Destroy(Deathobject02, 1);
+	    Destroy(Deathobject02, 1);
 	}
 	/*IEnumerator ChangeDeathSprite()
 	{
@@ -86,3 +91,4 @@ public class ObjectHealth : MonoBehaviour
 		gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead02;
 	}*/
 }
+

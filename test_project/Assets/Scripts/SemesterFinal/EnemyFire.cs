@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Cinemachine.Editor;
 using UnityEngine;
 
 public class EnemyFire : MonoBehaviour
 
 {
+	public Transform WeaponPosition;
 	public GameObject EnemyShoot;
 	public FloatData BulletSpeed;
 	private float ShootyForce;
@@ -37,7 +37,7 @@ public class EnemyFire : MonoBehaviour
 				ShootyForce = BulletSpeed.Value;
 			}
 			GameObject Clone;
-			Clone = Instantiate(EnemyShoot, transform.position, Quaternion.identity);
+			Clone = Instantiate(EnemyShoot, WeaponPosition.position, Quaternion.identity);
 			Clone.GetComponent<Rigidbody>().AddForce(ShootyForce,0,0);
 			yield return new WaitForSeconds(1);
 		}

@@ -13,6 +13,10 @@ public class OnObjectCollDamage : MonoBehaviour
 		{
 			other.GetComponent<ObjectHealth>().DamageHealth(Damage.Value);
 		}
-		
+
+		if (other.gameObject.GetComponent<MultiObjHealth>())
+		{
+			other.GetComponent<MultiObjHealth>().DamageHealth(Damage.Value);
+		}
 	}
 }

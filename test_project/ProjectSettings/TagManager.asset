@@ -23,14 +23,14 @@ TagManager:
   - 
   - 
   - player
-  - bullet
+  - PlayerBullet
   - object
   - Ground
   - AI
   - Target
   - Weapon
   - PowerUpBolt
-  - 
+  - EnemyBullet
   - 
   - 
   - 
