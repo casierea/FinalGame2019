@@ -46,7 +46,7 @@ public class AiRetaget : MonoBehaviour {
         {
             //Debug.Log(gameObject.GetComponent<DestroyOnCollision>().Score.ToString());
             var player = GameObject.FindGameObjectWithTag("Player");
-            int playerScore = player.GetComponent<DestroyOnCollision>().Score;
+          int playerScore = player.GetComponent<DestroyOnCollision>().Score;
             int Score = gameObject.GetComponent<DestroyOnCollision>().Score;
             
            if (playerScore > Score)
