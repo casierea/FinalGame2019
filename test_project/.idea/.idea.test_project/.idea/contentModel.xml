@@ -94,6 +94,7 @@
             <e p="FireBullet.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
+          <e p="SentaryShoot.cs" t="Include" />
           <e p="Trigger" t="Include">
             <e p="MouseDownBehaviour.cs" t="Include" />
             <e p="MouseEventBehaviour.cs" t="Include" />

@@ -7,12 +7,12 @@ TagManager:
   - object
   - Target
   - Ground
-  - Pick Up
   - Ai
   - Weapon
   - PowerUpBolt
   - bullet
   - Enemy
+  - PickUp
   layers:
   - Default
   - TransparentFX
