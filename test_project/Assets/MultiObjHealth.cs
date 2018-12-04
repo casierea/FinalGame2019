@@ -12,7 +12,7 @@ public class MultiObjHealth : MonoBehaviour
 	//public Sprite Dead01;
 	//public Sprite Dead02;
 	public GameObject Dead01;
-	public GameObject Dead02;
+	//public GameObject Dead02;
 
 	// Use this for initialization
 	private void Start ()
@@ -76,14 +76,15 @@ public class MultiObjHealth : MonoBehaviour
 	IEnumerator SpawnSprite()
 	{
 		GameObject DeathObject01;
-		GameObject Deathobject02;
+		
+		//GameObject Deathobject02;
 		
 		yield return new WaitForSeconds(1);
 		DeathObject01 = Instantiate(Dead01, transform.position, Quaternion.identity);
 		Destroy(DeathObject01, 1);
-		yield return new WaitForSeconds(1);
-		Deathobject02 = Instantiate(Dead02, transform.position, Quaternion.identity);
-	    Destroy(Deathobject02, 1);
+		//yield return new WaitForSeconds(1);
+		//Deathobject02 = Instantiate(Dead02, transform.position, Quaternion.identity);
+	   // Destroy(Deathobject02, 1);
 	}
 	/*IEnumerator ChangeDeathSprite()
 	{

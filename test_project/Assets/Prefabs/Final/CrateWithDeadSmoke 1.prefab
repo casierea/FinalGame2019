@@ -69,8 +69,8 @@ MonoBehaviour:
   MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
   StartHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
   CurrentHealth: 0
-  Dead01: {fileID: 21300008, guid: 2a33243dbdaf88547b789b3f36952706, type: 3}
-  Dead02: {fileID: 21300002, guid: 444f58295375a71489b17e8b1ee64289, type: 3}
+  Dead01: {fileID: 1964825612001688, guid: 9488ad6f7d30f364e8b3e49a1b1fa3bb, type: 2}
+  Dead02: {fileID: 1782055427931948, guid: 60f73e34d0e059a4e9d5e22f64092e68, type: 2}
 --- !u!212 &212216422325857078
 SpriteRenderer:
   m_ObjectHideFlags: 1
