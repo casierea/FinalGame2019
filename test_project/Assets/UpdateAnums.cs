@@ -6,7 +6,7 @@ public class UpdateAnums : MonoBehaviour
 {
 
 	private Animator anims;
-	public float Speed;
+	//public float Speed;
 	
 	void Start ()
 	{
