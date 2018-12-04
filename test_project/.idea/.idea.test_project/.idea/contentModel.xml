@@ -79,7 +79,6 @@
             <e p="TalkOnClick.cs" t="Include" />
           </e>
           <e p="MathOperators.cs" t="Include" />
-          <e p="ParticleSystem.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />

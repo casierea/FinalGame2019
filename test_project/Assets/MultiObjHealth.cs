@@ -61,7 +61,7 @@ public class MultiObjHealth : MonoBehaviour
 			if (Dead01)
 			{
 				//gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead01;
-				StartCoroutine(SpawnSprite());
+				//StartCoroutine(SpawnSprite());
 			}
 
 			gameObject.GetComponent<ObjectHealth>().enabled = false;
@@ -73,15 +73,15 @@ public class MultiObjHealth : MonoBehaviour
 		}
 	}
 
-	IEnumerator SpawnSprite()
-	{
-		GameObject DeathObject01;
+	//IEnumerator SpawnSprite()
+	//{
+		//GameObject DeathObject01;
 		
 		//GameObject Deathobject02;
 		
-		yield return new WaitForSeconds(1);
-		DeathObject01 = Instantiate(Dead01, transform.position, Quaternion.identity);
-		Destroy(DeathObject01, 1);
+		//yield return new WaitForSeconds(1);
+		//DeathObject01 = Instantiate(Dead01, transform.position, Quaternion.identity);
+		//Destroy(DeathObject01, 1);
 		//yield return new WaitForSeconds(1);
 		//Deathobject02 = Instantiate(Dead02, transform.position, Quaternion.identity);
 	   // Destroy(Deathobject02, 1);
@@ -91,5 +91,5 @@ public class MultiObjHealth : MonoBehaviour
 		yield return new WaitForSeconds(1);
 		gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead02;
 	}*/
-}
+//}
 
