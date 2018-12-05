@@ -54,7 +54,7 @@ public class AiHitandGo : MonoBehaviour {
         {
             Debug.Log("triggered by Player");
             // do damage
-            trig.gameObject.GetComponent<ObjectHealth>().DamageHealth(5);
+            trig.gameObject.GetComponent<RedoObjHealth>().DamageHealth(5);
             trig.gameObject.GetComponent<CharacterController>().SimpleMove(bump * 5f);
             //push player
             //change destination

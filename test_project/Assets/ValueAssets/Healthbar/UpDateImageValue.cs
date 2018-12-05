@@ -25,6 +25,6 @@ public class UpDateImageValue : MonoBehaviour
 	void Update ()
 	{
 		//Data = PlayerObject.GetComponent<ObjectHealth>().CurrentHealth;
-		image.fillAmount = PlayerObject.GetComponent<ObjectHealth>().CurrentHealth / MaxHealth.Value;//Data;
+		image.fillAmount = PlayerObject.GetComponent<RedoObjHealth>().CurrentHealth / MaxHealth.Value;//Data;
 	}
 }

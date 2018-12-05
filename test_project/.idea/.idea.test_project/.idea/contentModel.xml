@@ -24,6 +24,7 @@
         <e p="ObjectControl.cs" t="Include" />
         <e p="ObjectHealth.cs" t="Include" />
         <e p="OnObjectCollDamage.cs" t="Include" />
+        <e p="RedoObjHealth.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiRetaget.cs" t="Include" />

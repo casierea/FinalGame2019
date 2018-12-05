@@ -9,9 +9,9 @@ public class OnObjectCollDamage : MonoBehaviour
 	
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.GetComponent<ObjectHealth>())
+		if (other.gameObject.GetComponent<RedoObjHealth>())
 		{
-			other.GetComponent<ObjectHealth>().DamageHealth(Damage.Value);
+			other.GetComponent<RedoObjHealth>().DamageHealth(Damage.Value);
 		}
 
 		if (other.gameObject.GetComponent<MultiObjHealth>())
