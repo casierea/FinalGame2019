@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0522288e5785b04a8fe40030f6e9c63, type: 3}
-  m_Name: PatrolPoint2
+  m_Name: PatrolPoint3
   m_EditorClassIdentifier: 
-  Value: {x: 209, y: 214, z: 0}
+  Value: {x: 47, y: -5.1, z: 0}
