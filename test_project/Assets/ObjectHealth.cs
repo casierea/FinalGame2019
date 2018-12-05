@@ -8,7 +8,7 @@ public class ObjectHealth : MonoBehaviour
 	public FloatData StartHealth;
 	public float CurrentHealth;
 
-	public float ScrapPoints;
+
 	
 	//public Sprite Dead01;
 	//public Sprite Dead02;

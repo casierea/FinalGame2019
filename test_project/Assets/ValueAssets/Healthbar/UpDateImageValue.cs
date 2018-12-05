@@ -9,9 +9,11 @@ public class UpDateImageValue : MonoBehaviour
 {
 
 
-	public FloatData Data;
-
+	//public FloatData Data;
+	public float Data;
+	public FloatData MaxHealth;
 	private Image image;
+	public GameObject PlayerObject;
 	
 	// Use this for initialization
 	void Start ()
@@ -22,6 +24,7 @@ public class UpDateImageValue : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		image.fillAmount = Data.Value;
+		//Data = PlayerObject.GetComponent<ObjectHealth>().CurrentHealth;
+		image.fillAmount = PlayerObject.GetComponent<ObjectHealth>().CurrentHealth / MaxHealth.Value;//Data;
 	}
 }

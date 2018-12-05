@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 336702475}
   - component: {fileID: 336702477}
   - component: {fileID: 336702476}
+  - component: {fileID: 336702478}
   m_Layer: 0
   m_Name: Healthbar
   m_TagString: Untagged
@@ -545,6 +546,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 336702474}
   m_CullTransparentMesh: 0
+--- !u!114 &336702478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 336702474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9603ef6812145e04b9486c3cc848852d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: 0
+  MaxHealth: {fileID: 11400000, guid: 2ffe77db146ea594799588d0b08c448f, type: 2}
+  PlayerObject: {fileID: 870346951}
 --- !u!1 &370238969
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +947,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507178580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7, y: -22.18, z: 2.3}
+  m_LocalPosition: {x: -4.7, y: -22.18, z: 0.8}
   m_LocalScale: {x: 42.977623, y: 1, z: 3.069}
   m_Children: []
   m_Father: {fileID: 0}
@@ -947,7 +962,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4605242429777524, guid: f7aff705937301944a9a1611a6eae060, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 29.94
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 4605242429777524, guid: f7aff705937301944a9a1611a6eae060, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1268,7 +1283,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1.115, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -7.4, y: -17.855, z: 0}
+  m_ConnectedAnchor: {x: -7.4, y: -17.855, z: -2.7}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -1408,7 +1423,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 7ee75d2dd57163d42942429b3fef57b7, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 80dd83336fd7dd642a23a3050951e96b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1590,6 +1605,11 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789749532}
   m_CullTransparentMesh: 0
+--- !u!1 &870346951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1762708421755742, guid: f7aff705937301944a9a1611a6eae060,
+    type: 2}
+  m_PrefabInternal: {fileID: 511125145}
 --- !u!1001 &944096427
 Prefab:
   m_ObjectHideFlags: 0
@@ -1599,7 +1619,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4121576006548178, guid: cd79ade84aa94e14d88154c1b005b2c8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 23.01
+      value: 23.91
       objectReference: {fileID: 0}
     - target: {fileID: 4121576006548178, guid: cd79ade84aa94e14d88154c1b005b2c8, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1646,11 +1666,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4151202317776648, guid: 4764142ae6bb2b543bf2a233fbf8f67b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 31.5
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 4151202317776648, guid: 4764142ae6bb2b543bf2a233fbf8f67b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -10.3
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 4151202317776648, guid: 4764142ae6bb2b543bf2a233fbf8f67b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6510,7 +6530,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4368471044843192, guid: 464764bddd009ac45a69fcb9a48a19de, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 4368471044843192, guid: 464764bddd009ac45a69fcb9a48a19de, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6579,6 +6599,7 @@ GameObject:
   - component: {fileID: 1309711903}
   - component: {fileID: 1309711905}
   - component: {fileID: 1309711904}
+  - component: {fileID: 1309711906}
   m_Layer: 0
   m_Name: AiEnemyHorizontalShoot
   m_TagString: Untagged
@@ -6734,9 +6755,102 @@ MonoBehaviour:
   MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
   StartHealth: {fileID: 11400000, guid: 93e9cc4c357bda548af9909a42d57341, type: 2}
   CurrentHealth: 0
-  ScrapPoints: 0
   Dead01: {fileID: 0}
   Dead02: {fileID: 0}
+--- !u!153 &1309711906
+ConfigurableJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1309711897}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.405, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 42.64, y: -2.7210646, z: 0}
+  serializedVersion: 2
+  m_SecondaryAxis: {x: 0, y: 1, z: 0}
+  m_XMotion: 2
+  m_YMotion: 2
+  m_ZMotion: 0
+  m_AngularXMotion: 2
+  m_AngularYMotion: 2
+  m_AngularZMotion: 2
+  m_LinearLimitSpring:
+    spring: 0
+    damper: 0
+  m_LinearLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularXLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_HighAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularYZLimitSpring:
+    spring: 0
+    damper: 0
+  m_AngularYLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularZLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_TargetVelocity: {x: 0, y: 0, z: 0}
+  m_XDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_YDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
+  m_RotationDriveMode: 0
+  m_AngularXDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_AngularYZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_SlerpDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ProjectionMode: 0
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_ConfiguredInWorldSpace: 0
+  m_SwapBodies: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &1356975804
 GameObject:
   m_ObjectHideFlags: 0
@@ -6809,7 +6923,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356975804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.84, y: 2.86, z: -19.5}
+  m_LocalPosition: {x: 0.5600002, y: 2.86, z: -19.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6860,11 +6974,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4931728350780570, guid: c6071492b61b0a044b095fc2b1c2b588, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 43.34
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: 4931728350780570, guid: c6071492b61b0a044b095fc2b1c2b588, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -10.28
+      value: 4.02
       objectReference: {fileID: 0}
     - target: {fileID: 4931728350780570, guid: c6071492b61b0a044b095fc2b1c2b588, type: 2}
       propertyPath: m_LocalPosition.z
@@ -11820,7 +11934,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1870826213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.12, y: -15.36, z: 0}
+  m_LocalPosition: {x: 23.9, y: 11.2, z: 0}
   m_LocalScale: {x: 1.3949, y: 1.3949, z: 1.3949}
   m_Children:
   - {fileID: 548029904}
@@ -11870,7 +11984,6 @@ MonoBehaviour:
   MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
   StartHealth: {fileID: 11400000, guid: df17749174d34a542b87e79e91960fdd, type: 2}
   CurrentHealth: 0
-  ScrapPoints: 0
   Dead01: {fileID: 1964825612001688, guid: 9488ad6f7d30f364e8b3e49a1b1fa3bb, type: 2}
   Dead02: {fileID: 1964825612001688, guid: 9488ad6f7d30f364e8b3e49a1b1fa3bb, type: 2}
 --- !u!1 &1887575445
