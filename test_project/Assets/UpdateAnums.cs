@@ -6,7 +6,7 @@ public class UpdateAnums : MonoBehaviour
 {
 
 	private Animator anims;
-	//public float Speed;
+	public float Speed;
 	
 	void Start ()
 	{
@@ -14,6 +14,6 @@ public class UpdateAnums : MonoBehaviour
 	}
 	
 	void Update () {
-		//anims.SetFloat("Speed", Speed);
+		anims.SetFloat("Speed", Speed);
 	}
 }
