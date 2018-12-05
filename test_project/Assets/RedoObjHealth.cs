@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class RedoObjHealth : MonoBehaviour {
 
@@ -11,6 +12,7 @@ public class RedoObjHealth : MonoBehaviour {
 	public Sprite Dead01;
 	public Sprite Dead02;
 
+	public UnityEvent DeathEvent; 
 	// Use this for initialization
 	private void Start ()
 	{
@@ -62,7 +64,10 @@ public class RedoObjHealth : MonoBehaviour {
 			}
 
 			gameObject.GetComponent<RedoObjHealth>().enabled = false;
+			
+			DeathEvent.Invoke();
 		}
+		
 	}
 
 	IEnumerator ChangeDeathSprite()
