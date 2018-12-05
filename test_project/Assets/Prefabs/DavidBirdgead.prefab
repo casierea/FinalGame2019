@@ -275,7 +275,9 @@ MonoBehaviour:
   MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
   StartHealth: {fileID: 11400000, guid: df17749174d34a542b87e79e91960fdd, type: 2}
   CurrentHealth: 0
-  Dead: {fileID: 21300002, guid: 444f58295375a71489b17e8b1ee64289, type: 3}
+  ScrapPoints: 0
+  Dead01: {fileID: 0}
+  Dead02: {fileID: 0}
 --- !u!114 &114583058094612406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -287,7 +289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa3681f65f12e54a8fd9b18fb743a36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
 --- !u!114 &114829352328407996
 MonoBehaviour:
   m_ObjectHideFlags: 1
