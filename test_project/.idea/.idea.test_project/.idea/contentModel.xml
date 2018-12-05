@@ -18,9 +18,6 @@
         <e p="BgPlayerController.cs" t="Include" />
         <e p="Eventrepeat.cs" t="Include" />
         <e p="GameStatesData.cs" t="Include" />
-        <e p="Healthbar" t="Include">
-          <e p="UpDateImageValue.cs" t="Include" />
-        </e>
         <e p="MultiObjHealth.cs" t="Include" />
         <e p="NewPlayerMove.cs" t="Include" />
         <e p="ObjectCollisionDestroy.cs" t="Include" />
@@ -123,6 +120,11 @@
         </e>
         <e p="TopScores.cs" t="Include" />
         <e p="UpdateAnums.cs" t="Include" />
+        <e p="ValueAssets" t="Include">
+          <e p="Healthbar" t="Include">
+            <e p="UpDateImageValue.cs" t="Include" />
+          </e>
+        </e>
         <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />

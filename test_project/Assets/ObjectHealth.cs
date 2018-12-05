@@ -7,6 +7,9 @@ public class ObjectHealth : MonoBehaviour
 	public FloatData MinHealth;
 	public FloatData StartHealth;
 	public float CurrentHealth;
+
+	public float ScrapPoints;
+	
 	//public Sprite Dead01;
 	//public Sprite Dead02;
 	public GameObject Dead01;
