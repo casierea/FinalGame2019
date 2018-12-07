@@ -62,6 +62,7 @@
             <e p="InstancingBase.cs" t="Include" />
             <e p="Nov27Instancer.cs" t="Include" />
           </e>
+          <e p="HealOnCollision.cs" t="Include" />
           <e p="Instance" t="Include">
             <e p="Instancing.cs" t="Include" />
           </e>
