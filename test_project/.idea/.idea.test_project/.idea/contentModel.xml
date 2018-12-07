@@ -71,11 +71,13 @@
           <e p="InternetScripts" t="Include">
             <e p="ZoyaDestroya.cs" t="Include" />
           </e>
+          <e p="LongDestroyOnCollision.cs" t="Include" />
           <e p="Loops" t="Include">
             <e p="Loops.cs" t="Include" />
             <e p="TalkOnClick.cs" t="Include" />
           </e>
           <e p="MathOperators.cs" t="Include" />
+          <e p="OnTrigEntDoDamage.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />

@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOnCollision : MonoBehaviour
-{
-	public int Score = 0;
+public class LongDestroyOnCollision : MonoBehaviour {
+
 	public Sprite CollectEffect;
 	
 	private void OnTriggerEnter(Collider other)
@@ -15,8 +14,8 @@ public class DestroyOnCollision : MonoBehaviour
 		if (other.tag == "PickUp")
 		
 			Destroy(gameObject);
-			print("Destroy");
-			Score += 1;
+		print("Destroy");
+	
 		if (gameObject.tag == "PickUp" && CollectEffect != null)
 		{
 
@@ -28,8 +27,7 @@ public class DestroyOnCollision : MonoBehaviour
 		}
 	}
 	IEnumerator RemoveSprite () {
-		yield return new WaitForSeconds(.50f);
+		yield return new WaitForSeconds(2.0f);
 		Destroy(gameObject);
 	}
 }
-

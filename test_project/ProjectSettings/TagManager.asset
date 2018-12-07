@@ -13,7 +13,6 @@ TagManager:
   - bullet
   - Enemy
   - PickUp
-  - Pick Up
   layers:
   - Default
   - TransparentFX
