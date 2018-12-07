@@ -10,12 +10,12 @@ public class HealOnCollision : MonoBehaviour {
     {
         if (other.gameObject.GetComponent<RedoObjHealth>())
         {
-            other.GetComponent<RedoObjHealth>().DamageHealth(Heal.Value);
+            other.GetComponent<RedoObjHealth>().HealHealth(Heal.Value);
         }
 
         if (other.gameObject.GetComponent<MultiObjHealth>())
         {
-            other.GetComponent<MultiObjHealth>().DamageHealth(Heal.Value);
+            other.GetComponent<MultiObjHealth>().HealHealth(Heal.Value);
         }
     }
 }

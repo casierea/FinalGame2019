@@ -55,6 +55,8 @@ public class RedoObjHealth : MonoBehaviour {
 			if (gameObject.GetComponent<Rigidbody>() != null)
 			{
 				gameObject.GetComponent<Rigidbody>().freezeRotation = false;
+
+			//	gameObject.GetComponent<Rigidbody>().useGravity = false; // stop dead sprites from falling
 			}
 
 			if (Dead01)
