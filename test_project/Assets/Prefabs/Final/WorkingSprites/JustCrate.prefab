@@ -20,9 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4240286814918520}
   - component: {fileID: 212204275011910740}
-  - component: {fileID: 114685355581740428}
   - component: {fileID: 65091051292791188}
-  - component: {fileID: 114091830751492886}
   m_Layer: 0
   m_Name: JustCrate
   m_TagString: Untagged
@@ -55,45 +53,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.34, y: 2.25, z: 2.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114091830751492886
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1038938651019210}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f47158f047dee54a8e5b3a89f80a139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
-  MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
-  StartHealth: {fileID: 11400000, guid: fe11ba4aa0e5b4a4a8ddbe5bac345f93, type: 2}
-  CurrentHealth: 0
-  Dead01: {fileID: 21300006, guid: 80dd83336fd7dd642a23a3050951e96b, type: 3}
-  Dead02: {fileID: 21300004, guid: 7ee75d2dd57163d42942429b3fef57b7, type: 3}
-  DeathEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &114685355581740428
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1038938651019210}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f09ba20995467e0478e9eef487d01d2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
-  MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
-  StartHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
-  CurrentHealth: 0
-  Dead01: {fileID: 21300008, guid: 2a33243dbdaf88547b789b3f36952706, type: 3}
-  Dead02: {fileID: 21300002, guid: 444f58295375a71489b17e8b1ee64289, type: 3}
 --- !u!212 &212204275011910740
 SpriteRenderer:
   m_ObjectHideFlags: 1
