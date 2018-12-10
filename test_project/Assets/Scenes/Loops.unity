@@ -144,10 +144,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BadGuys:
-  - Robot shooter
-  - ai horiztonal
-  - bomb
-  Numbers: 000000000100000002000000030000000400000005000000
+  - 
+  - 
+  - 
+  Numbers: 000000000000000000000000
+  ThreeNums: 050000000600000009000000
 --- !u!65 &53902398
 BoxCollider:
   m_ObjectHideFlags: 0
