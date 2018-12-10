@@ -9,6 +9,7 @@
           <e p="AiHitandGo.cs" t="Include" />
           <e p="AiHorizontal.cs" t="Include" />
         </e>
+        <e p="ArrayTest.cs" t="Include" />
         <e p="BallGame" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
