@@ -147,6 +147,7 @@ MonoBehaviour:
   - Robot shooter
   - ai horiztonal
   - bomb
+  Numbers: 000000000100000002000000030000000400000005000000
 --- !u!65 &53902398
 BoxCollider:
   m_ObjectHideFlags: 0
