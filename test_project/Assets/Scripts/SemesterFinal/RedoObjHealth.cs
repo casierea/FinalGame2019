@@ -66,7 +66,7 @@ public class RedoObjHealth : MonoBehaviour {
 			}
 
 			gameObject.GetComponent<RedoObjHealth>().enabled = false;
-			
+			print("dyring");
 			DeathEvent.Invoke();
 		}
 		
