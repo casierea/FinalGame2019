@@ -9,28 +9,21 @@
           <e p="AiHitandGo.cs" t="Include" />
           <e p="AiHorizontal.cs" t="Include" />
         </e>
-        <e p="AnimateRote.cs" t="Include" />
         <e p="BallGame" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
         </e>
-        <e p="BgPlayerController.cs" t="Include" />
-        <e p="Eventrepeat.cs" t="Include" />
-        <e p="GameStatesData.cs" t="Include" />
-        <e p="MultiObjHealth.cs" t="Include" />
-        <e p="NewPlayerMove.cs" t="Include" />
-        <e p="ObjectCollisionDestroy.cs" t="Include" />
-        <e p="ObjectControl.cs" t="Include" />
-        <e p="ObjectHealth.cs" t="Include" />
-        <e p="OnObjectCollDamage.cs" t="Include" />
-        <e p="RedoObjHealth.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiRetaget.cs" t="Include" />
             <e p="BasicAi.cs" t="Include" />
+            <e p="BgPlayerController.cs" t="Include" />
           </e>
           <e p="AiAgents" t="Include">
             <e p="AIAgent1.cs" t="Include" />
+          </e>
+          <e p="Animation" t="Include">
+            <e p="AnimateRote.cs" t="Include" />
           </e>
           <e p="Character" t="Include">
             <e p="CharacterMover.cs" t="Include" />
@@ -50,7 +43,6 @@
             <e p="Variables.cs" t="Include" />
             <e p="WhatCanSeeIt.cs" t="Include" />
           </e>
-          <e p="CoffeeTemperature.cs" t="Include" />
           <e p="Collection" t="Include">
             <e p="AddToCollection.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
@@ -62,7 +54,8 @@
             <e p="InstancingBase.cs" t="Include" />
             <e p="Nov27Instancer.cs" t="Include" />
           </e>
-          <e p="HealOnCollision.cs" t="Include" />
+          <e p="Eventrepeat.cs" t="Include" />
+          <e p="GameStatesData.cs" t="Include" />
           <e p="Instance" t="Include">
             <e p="Instancing.cs" t="Include" />
           </e>
@@ -72,13 +65,13 @@
           <e p="InternetScripts" t="Include">
             <e p="ZoyaDestroya.cs" t="Include" />
           </e>
-          <e p="LongDestroyOnCollision.cs" t="Include" />
           <e p="Loops" t="Include">
             <e p="Loops.cs" t="Include" />
             <e p="TalkOnClick.cs" t="Include" />
           </e>
           <e p="MathOperators.cs" t="Include" />
-          <e p="OnTrigEntDoDamage.cs" t="Include" />
+          <e p="NewPlayerMove.cs" t="Include" />
+          <e p="ObjectControl.cs" t="Include" />
           <e p="Practice" t="Include">
             <e p="DivideByValue.cs" t="Include" />
             <e p="MulitiplyAndDivide.cs" t="Include" />
@@ -94,9 +87,18 @@
             <e p="ClassCharacterMover.cs" t="Include" />
             <e p="EnemyFire.cs" t="Include" />
             <e p="FireBullet.cs" t="Include" />
+            <e p="HealOnCollision.cs" t="Include" />
+            <e p="LongDestroyOnCollision.cs" t="Include" />
+            <e p="MultiObjHealth.cs" t="Include" />
+            <e p="ObjectCollisionDestroy.cs" t="Include" />
+            <e p="ObjectHealth.cs" t="Include" />
+            <e p="OnObjectCollDamage.cs" t="Include" />
+            <e p="OnTrigEntDoDamage.cs" t="Include" />
+            <e p="RedoObjHealth.cs" t="Include" />
             <e p="TwithInstance.cs" t="Include" />
           </e>
           <e p="SentaryShoot.cs" t="Include" />
+          <e p="TopScores.cs" t="Include" />
           <e p="Trigger" t="Include">
             <e p="MouseDownBehaviour.cs" t="Include" />
             <e p="MouseEventBehaviour.cs" t="Include" />
@@ -104,14 +106,19 @@
             <e p="TriggerEventBehaviour.cs" t="Include" />
             <e p="TriggerID.cs" t="Include" />
           </e>
+          <e p="Tutorials" t="Include">
+            <e p="CoffeeTemperature.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="Counter.cs" t="Include" />
           </e>
+          <e p="UpdateAnums.cs" t="Include" />
           <e p="Values" t="Include">
             <e p="AddMoney.cs" t="Include" />
             <e p="AddValue.cs" t="Include" />
             <e p="ChangeValue.cs" t="Include" />
           </e>
+          <e p="Vector3Data.cs" t="Include" />
         </e>
         <e p="SwitchStatements" t="Include">
           <e p="GameStates.cs" t="Include" />
@@ -121,14 +128,11 @@
           <e p="StateMachine.cs" t="Include" />
           <e p="SwitchStatements.cs" t="Include" />
         </e>
-        <e p="TopScores.cs" t="Include" />
-        <e p="UpdateAnums.cs" t="Include" />
         <e p="ValueAssets" t="Include">
           <e p="Healthbar" t="Include">
             <e p="UpDateImageValue.cs" t="Include" />
           </e>
         </e>
-        <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
