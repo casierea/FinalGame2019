@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 114269896801945368}
   - component: {fileID: 153123438334037630}
   m_Layer: 0
-  m_Name: AiEnemyHorizontalShoot
+  m_Name: oldai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
