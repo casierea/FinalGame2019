@@ -83,12 +83,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f47158f047dee54a8e5b3a89f80a139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: {fileID: 11400000, guid: fe11ba4aa0e5b4a4a8ddbe5bac345f93, type: 2}
+  MaxHealth: {fileID: 11400000, guid: df17749174d34a542b87e79e91960fdd, type: 2}
   MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
-  StartHealth: {fileID: 11400000, guid: fe11ba4aa0e5b4a4a8ddbe5bac345f93, type: 2}
+  StartHealth: {fileID: 11400000, guid: df17749174d34a542b87e79e91960fdd, type: 2}
   CurrentHealth: 0
   Dead01: {fileID: 21300002, guid: 444f58295375a71489b17e8b1ee64289, type: 3}
-  Dead02: {fileID: 21300000, guid: 80dd83336fd7dd642a23a3050951e96b, type: 3}
+  Dead02: {fileID: 0}
   DeathEvent:
     m_PersistentCalls:
       m_Calls: []
