@@ -13041,15 +13041,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4290287460489726, guid: 8f7a9515522797b4eb8bfcf4c63c6492, type: 2}
       propertyPath: m_LocalScale.x
-      value: 4.578196
+      value: 4.8528876
       objectReference: {fileID: 0}
     - target: {fileID: 4290287460489726, guid: 8f7a9515522797b4eb8bfcf4c63c6492, type: 2}
       propertyPath: m_LocalScale.y
-      value: 4.578196
+      value: 4.8528876
       objectReference: {fileID: 0}
     - target: {fileID: 4290287460489726, guid: 8f7a9515522797b4eb8bfcf4c63c6492, type: 2}
       propertyPath: m_LocalScale.z
-      value: 4.578196
+      value: 4.8528876
       objectReference: {fileID: 0}
     - target: {fileID: 65206931445599924, guid: 8f7a9515522797b4eb8bfcf4c63c6492,
         type: 2}
@@ -13100,6 +13100,16 @@ Prefab:
       propertyPath: EnemyShoot
       value: 
       objectReference: {fileID: 1351647950164010, guid: 0fa02982272483c4bad828b643780869,
+        type: 2}
+    - target: {fileID: 4643465232024678, guid: 8f7a9515522797b4eb8bfcf4c63c6492, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.3775
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662719966915716, guid: 8f7a9515522797b4eb8bfcf4c63c6492,
+        type: 2}
+      propertyPath: BulletSpeed
+      value: 
+      objectReference: {fileID: 11400000, guid: c1b151d8d735273419843d25cefdd771,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f7a9515522797b4eb8bfcf4c63c6492, type: 2}
