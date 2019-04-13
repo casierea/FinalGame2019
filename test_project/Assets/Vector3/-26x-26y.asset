@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0522288e5785b04a8fe40030f6e9c63, type: 3}
   m_Name: -26x-26y
   m_EditorClassIdentifier: 
-  Value: {x: -27, y: -26, z: 0}
+  Value: {x: -27, y: 27.6, z: 0}
