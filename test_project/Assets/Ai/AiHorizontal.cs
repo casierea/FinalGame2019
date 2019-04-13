@@ -12,7 +12,8 @@ public class AiHorizontal : MonoBehaviour
 	public Vector3Data Destination2;
 	//public Vector3 Destination3;
 	public List<Vector3Data> PatrolPoints = new List<Vector3Data>();
-	
+
+	private Vector3 XForce;
 	// Use this for initialization
 	void Start ()
 	{
@@ -42,7 +43,17 @@ public class AiHorizontal : MonoBehaviour
 		}
 	}
 	//on collision
-	
+	private void switchDestinationOnColl()
+	{
+		if (Vector3.Distance(agent.destination, PatrolPoints[0].Value) < 2.0f)
+		{
+			agent.destination = PatrolPoints[1].Value;
+		}
+		else if (Vector3.Distance(agent.destination, PatrolPoints[1].Value) < 2.0f)
+		{
+			agent.destination = PatrolPoints[0].Value;
+		}
+	}
 	private void OnCollisionEnter(Collision other)
 	{
 		if (other.gameObject.tag == "Player")
@@ -51,12 +62,21 @@ public class AiHorizontal : MonoBehaviour
 			// do damage
 			//push player
 			//change destination
-		
+			if (other.gameObject.GetComponent<Transform>().position.x <=
+			    gameObject.GetComponent<Transform>().position.x)
+			{
+				XForce = new Vector3(-10, 5, 0);
+			}
+			else
+			{
+				XForce = new Vector3(10, 5, 0);
+			}
+
+			CharacterController controller = other.gameObject.GetComponent<CharacterController>();
+
+			controller.SimpleMove(XForce * 30.0f);
 		}
-		else
-		{
-			//change destination
-		}
+		switchDestinationOnColl();
 	}
 	
 }

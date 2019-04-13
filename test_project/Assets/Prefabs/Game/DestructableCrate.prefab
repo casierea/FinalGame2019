@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4754033826553128}
   - component: {fileID: 212261502422697898}
-  - component: {fileID: 114430408292466064}
   - component: {fileID: 65944048776793038}
   - component: {fileID: 114668347765478972}
   m_Layer: 0
@@ -55,23 +54,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.34, y: 2.25, z: 3.3496656}
   m_Center: {x: 0, y: 0, z: 0.19134277}
---- !u!114 &114430408292466064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1791049156390910}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f09ba20995467e0478e9eef487d01d2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
-  MinHealth: {fileID: 11400000, guid: 1e2982ce3dd9fcd4ca92fae812f281d5, type: 2}
-  StartHealth: {fileID: 11400000, guid: 44d4e4fcaced5034db346261937aa5f7, type: 2}
-  CurrentHealth: 0
-  Dead01: {fileID: 1222345043190732, guid: 502b3c7f9c107d74eb455c7f5329fa7b, type: 2}
-  Dead02: {fileID: 1964825612001688, guid: 9488ad6f7d30f364e8b3e49a1b1fa3bb, type: 2}
 --- !u!114 &114668347765478972
 MonoBehaviour:
   m_ObjectHideFlags: 1
