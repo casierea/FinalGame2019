@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0522288e5785b04a8fe40030f6e9c63, type: 3}
-  m_Name: x=8y=1.3
+  m_Name: x=6.5y=12.5
   m_EditorClassIdentifier: 
-  Value: {x: 30, y: 1.3, z: 0}
+  Value: {x: 6.5, y: 12.5, z: 0}

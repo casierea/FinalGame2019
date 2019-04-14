@@ -58,6 +58,7 @@
           </e>
           <e p="Eventrepeat.cs" t="Include" />
           <e p="GameStatesData.cs" t="Include" />
+          <e p="HMovePlatform.cs" t="Include" />
           <e p="Instance" t="Include">
             <e p="Instancing.cs" t="Include" />
           </e>
