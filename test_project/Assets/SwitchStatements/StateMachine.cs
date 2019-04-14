@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class StateMachine : MonoBehaviour{
 public string GameState;
-public UnityEvent Starting, Playing, Ending, Dying;
+public UnityEvent Starting, Playing, Ending, Dying, Winning;
 	
 //StateMachine.Can do a unityevent.
 	
@@ -43,6 +43,9 @@ public void Run () {
 		  Ending.Invoke();
 		  break;
 					
+		  case "Winning":
+			  Winning.Invoke();
+			  break;
 	}
 }
 }
