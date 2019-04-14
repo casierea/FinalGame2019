@@ -54,7 +54,7 @@ public class AiHorizontal : MonoBehaviour
 			agent.destination = PatrolPoints[0].Value;
 		}
 	}
-	private void OnCollisionEnter(Collision other)
+	private void OnTriggerEnter( Collider other )
 	{
 		if (other.gameObject.tag == "Player")
 		{
@@ -65,16 +65,16 @@ public class AiHorizontal : MonoBehaviour
 			if (other.gameObject.GetComponent<Transform>().position.x <=
 			    gameObject.GetComponent<Transform>().position.x)
 			{
-				XForce = new Vector3(-10, 5, 0);
+				XForce = new Vector3(-10, 50, 0);
 			}
 			else
 			{
-				XForce = new Vector3(10, 5, 0);
+				XForce = new Vector3(10, 50, 0);
 			}
 
 			CharacterController controller = other.gameObject.GetComponent<CharacterController>();
 
-			controller.SimpleMove(XForce * 30.0f);
+			controller.SimpleMove(XForce * 20.0f);
 		}
 		switchDestinationOnColl();
 	}
