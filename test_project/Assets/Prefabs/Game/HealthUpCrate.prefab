@@ -130,7 +130,7 @@ MonoBehaviour:
   StartHealth: {fileID: 11400000, guid: fe11ba4aa0e5b4a4a8ddbe5bac345f93, type: 2}
   CurrentHealth: 0
   Dead01: {fileID: 21300000, guid: b84d6d0e27b806f4085abc06ab789471, type: 3}
-  Dead02: {fileID: 21300004, guid: b84d6d0e27b806f4085abc06ab789471, type: 3}
+  Dead02: {fileID: 0}
   DeathEvent:
     m_PersistentCalls:
       m_Calls: []
