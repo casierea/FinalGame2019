@@ -11,7 +11,8 @@ public class RedoObjHealth : MonoBehaviour {
 	public float CurrentHealth;
 	public Sprite Dead01;
 	public Sprite Dead02;
-
+	private Transform barrier;
+	
 	public UnityEvent DeathEvent; 
 	// Use this for initialization
 	private void Start ()
@@ -56,7 +57,7 @@ public class RedoObjHealth : MonoBehaviour {
 			{
 				gameObject.GetComponent<Rigidbody>().freezeRotation = false;
 
-			//	gameObject.GetComponent<Rigidbody>().useGravity = false; // stop dead sprites from falling
+				gameObject.GetComponent<Rigidbody>().useGravity = false; // stop dead sprites from falling
 			}
 
 			if (Dead01)
@@ -65,8 +66,15 @@ public class RedoObjHealth : MonoBehaviour {
 				StartCoroutine("ChangeDeathSprite");
 			}
 
+		
+			if(gameObject.transform.childCount > 1)
+			{
+				barrier = gameObject.transform.GetChild(1);
+				barrier.GetComponent<BoxCollider>().enabled = false;
+			}
+
 			gameObject.GetComponent<RedoObjHealth>().enabled = false;
-			print("dyring");
+			print("dying");
 			DeathEvent.Invoke();
 		}
 		
@@ -76,5 +84,7 @@ public class RedoObjHealth : MonoBehaviour {
 	{
 		yield return new WaitForSeconds(1.5f);
 		gameObject.GetComponentInChildren<SpriteRenderer>().sprite = Dead02;
-	}
+		yield return new WaitForSeconds(1.5f); // time before sprite disappears
+		gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+	}	
 }

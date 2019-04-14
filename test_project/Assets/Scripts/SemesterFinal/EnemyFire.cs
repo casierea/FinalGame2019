@@ -10,39 +10,50 @@ public class EnemyFire : MonoBehaviour
 	public FloatData BulletSpeed;
 	private float ShootyForce;
 	private bool FacingRight;
+	private bool readyToFire = true;
+	
 	private void Update()
 	{
 		FacingRight = gameObject.GetComponentInParent<SpriteRenderer>().flipX;
 	}
 
-	private void OnTriggerEnter(Collider other)
-	{	Debug.Log("Player tag");
+	private void OnTriggerStay(Collider other)
+	{	//Debug.Log("Player tag");
 		
-		if (other.tag == "Player")
-		{
-			StartCoroutine("BeginShoot");
+		if (other.tag == "Player" & readyToFire)
+		{	
+			Invoke("BeginShoot", 0.5f); 
+			Debug.Log("After begin Shoot" + readyToFire);
+			StartCoroutine(ShootDelay(1.0f));
+			Debug.Log("After begin Delay" + readyToFire);
 		}
 	}
 
-	IEnumerator BeginShoot()
+	private IEnumerator ShootDelay(float waitTime)
 	{
-		while (true)
-		{	Debug.Log("in Whileloop");
-			if (FacingRight == false)
-			{
-				ShootyForce = -BulletSpeed.Value;
-			}
-			else
-			{
-				ShootyForce = BulletSpeed.Value;
-			}
-			GameObject Clone;
-			Clone = Instantiate(EnemyShoot, WeaponPosition.position, Quaternion.identity);
-			Clone.GetComponent<Rigidbody>().AddForce(ShootyForce,0,0);
-			yield return new WaitForSeconds(1);
+		readyToFire = false;
+		yield return new WaitForSeconds(waitTime);
+		readyToFire = true; 
+		Debug.Log("After ready set true" + readyToFire);
+	}
+
+	void BeginShoot()
+	{
+		
+		if (FacingRight == false)
+		{
+			ShootyForce = -BulletSpeed.Value;
 		}
+		else
+		{
+			ShootyForce = BulletSpeed.Value;
+		}
+		GameObject Clone;
+		Clone = Instantiate(EnemyShoot, WeaponPosition.position, transform.rotation);
+		Clone.GetComponent<Rigidbody>().AddForce(ShootyForce,0,0);
+		
+	}
 		
 
 	}
 
-}

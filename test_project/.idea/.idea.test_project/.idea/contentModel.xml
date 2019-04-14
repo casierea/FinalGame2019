@@ -122,6 +122,7 @@
             <e p="ChangeValue.cs" t="Include" />
           </e>
           <e p="Vector3Data.cs" t="Include" />
+          <e p="VMovePlatform.cs" t="Include" />
         </e>
         <e p="SwitchStatements" t="Include">
           <e p="GameStates.cs" t="Include" />
