@@ -41,7 +41,7 @@ public class VMovePlatform : MonoBehaviour
 		}
 	}
 
-	private void OnTriggerEnter(Collider other)
+	private void OnCollisionEnter(Collision other)
 	{
 		Flip();
 		if (CurrentDestination == Destination1.Value)
