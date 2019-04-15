@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0522288e5785b04a8fe40030f6e9c63, type: 3}
   m_Name: Horizontal2nd
   m_EditorClassIdentifier: 
-  Value: {x: 161, y: -21.3, z: 0}
+  Value: {x: 123, y: -21.3, z: 0}
