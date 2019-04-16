@@ -10,12 +10,12 @@ public class DestroyOnCollision : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 
 	{
-		print("Check");
+		//print("Check");
 		
 		if (other.tag == "PickUp")
 		
 			Destroy(gameObject);
-			print("Destroy");
+			//print("Destroy");
 			Score += 1;
 		if (gameObject.tag == "PickUp" && CollectEffect != null)
 		{
